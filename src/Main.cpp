@@ -9,11 +9,12 @@
 
 WiFiClient wifiClient;
 MQTTCommunicator mqttCommunicator(wifiClient);
+CurrentReader currentReader;
 
 namespace Core {
     void log(String msg) {
         Serial.println(msg);
-        mqttCommunicator.publishLog(msg);
+        mqttCommunicator.publish(msg, MQTTCommunicator::PublishTopic::DEBUG_LOG);
     }
 }
 
@@ -94,17 +95,17 @@ void setup() {
     Core::currentState = Core::State::CLOSED;
 }
 
-/*
-Drives the solenoid to open and close the blast blast gate.
-
-With no param:
-  Activates the air solenoid to match Core::currentState
-
-With optional param
-  If Core::State::OPEN is passed in the blast gate will open regardless of the internal state
-  If Core::State::CLOSED is passed in the blast gate will close regardless of the internal state.
-
-  Useful if you want to cycle the gate in attempt to clear a jam.
+/**
+ * Drives the solenoid to open and close the blast blast gate.
+ * 
+ * With no param:
+ *   Activates the air solenoid to match Core::currentState
+ * 
+ * With optional param:
+ *   If Core::State::OPEN is passed in the blast gate will open regardless of the internal state
+ *   If Core::State::CLOSED is passed in the blast gate will close regardless of the internal state.
+ * 
+ *   Useful if you want to cycle the gate in attempt to clear a jam.
 */
 void updateSolenoid(const Core::State overrideState = Core::State::BOOTING) {
     // Handle optional param
@@ -123,13 +124,13 @@ void updateSolenoid(const Core::State overrideState = Core::State::BOOTING) {
 }
 
 
-/*
-There are two ways to enter the OPEN state:
-    1. The toggle button was pressed and the last state was CLOSED
-    2. An MQTT command to OPEN is received.
-
-Upon entering the OPEN state the following steps will be taken:
-    1. The relay for the solenoid will be driven, supplying compressed air to the piston.
+/**
+ * There are two ways to enter the OPEN state:
+ *     1. The toggle button was pressed and the last state was CLOSED
+ *     2. An MQTT command to OPEN is received.
+ * 
+ * Upon entering the OPEN state the following steps will be taken:
+ *     1. The relay for the solenoid will be driven, supplying compressed air to the piston.
 */
 inline void open() {
     Core::log("Opening gate.");
@@ -137,13 +138,13 @@ inline void open() {
 }   
 
 
-/*
-There are two ways to enter the CLOSED state:
-    1. The toggle button was pressed and the last state was OPEN
-    2. An MQTT command to CLOSED is received.
-
-Upon entering the OPEN state the following steps will be taken:
-    1. The relay for the solenoid will be driven, supplying compressed air to the piston.
+/**
+ * There are two ways to enter the CLOSED state:
+ *     1. The toggle button was pressed and the last state was OPEN
+ *     2. An MQTT command to CLOSED is received.
+ * 
+ * Upon entering the OPEN state the following steps will be taken:
+ *     1. The relay for the solenoid will be driven, supplying compressed air to the piston.
 */
 inline void close() {
     Core::log("Closing gate");
@@ -151,21 +152,76 @@ inline void close() {
 }   
 
 
+/**
+ *  Updates Core::currentState and handles MQTT processing.
+ * 
+ * Hierarchy:
+ *   1. CurrentReader indicates machine is on -> open gate.
+ *   2. MQTT commands open gate -> open gate. The command has to be sent more than once every 120 seconds to keep the gate open.
+ *   3. MQTT commands closed gate -> close gate
+ *   4. If no MQTT command has been received for 120s and the current reader idicates machine is off -> close gate.
+ *       
+*/
+inline void decideState() {
+    static unsigned long lastMqttUpdate = 0;
+
+    // Handle MQTT
+    Core::State mqttSuggestedState = mqttCommunicator.process();
+
+    // If the machine is on the blast gate should always be open.
+    if (currentReader.isMachineOn()) {
+        Core::currentState = Core::State::OPEN;
+    }
+
+    // Check MQTT for state updates.
+    if (mqttSuggestedState != Core::State::NULL_STATE) {
+        lastMqttUpdate = millis();
+        Core::currentState = mqttSuggestedState;
+    }
+
+    // Close the gate if no MQTT commands have come in for 120s.
+    if (millis() - 120000 > lastMqttUpdate) {
+        Core::currentState = Core::State::CLOSED;
+    }
+    
+
+}
+
 
 void loop() {
-    // put your main code here, to run repeatedly:
+    // Static intiialization
+    static bool lastMachineState = false;
+    static Core::State lastState = Core::State::NULL_STATE;
 
-    switch (Core::currentState) {
-        case Core::State::OPEN:
-            open();
-            break;
-        
-        case Core::State::CLOSED:
-            close();
-            break;
-        
-        default:
-            Core::log("A bad thing happened.");
-            break;
+    //Check for state updates.
+    decideState(); // Updates Core::currentState
+
+    if (lastState != Core::currentState) {
+        // Take state actions and report to MQTT broker
+        switch (Core::currentState) {
+            case Core::State::OPEN:
+                open();
+                mqttCommunicator.publish("OPEN", MQTTCommunicator::PublishTopic::GATE_STATE);
+                break;
+            
+            case Core::State::CLOSED:
+                close();
+                mqttCommunicator.publish("OPEN",MQTTCommunicator::PublishTopic::GATE_STATE);
+                break;
+            
+            default:
+                Core::log("A bad thing happened.");
+                break;
         }
+
+    }
+
+    // Report to MQTT broker if the machine has ben turned on or off.
+    bool currentMachineState = currentReader.isMachineOn();
+
+    if (currentMachineState != lastMachineState) {
+        lastMachineState = currentMachineState;
+        mqttCommunicator.publish((currentMachineState) ? "ON" : "OFF", MQTTCommunicator::PublishTopic::MACHINE_STATE);
+    }
+    
 }

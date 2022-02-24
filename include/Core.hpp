@@ -7,7 +7,6 @@
 #include <vector>
 #include <ESP8266WiFi.h>
 
-
 namespace Core {
     // Hardware
     inline const int ADC_PIN = A0;
@@ -28,14 +27,16 @@ namespace Core {
     void log(String msg);
 
     // Internal Logic
-    enum State {
+    enum class State {
         OPEN,
         CLOSED,
         BOOTING,
-        STUCK_GATE
+        STUCK_GATE,
+        NULL_STATE // Not a valid state. Used for internal logic.
     };
 
     extern State currentState;
+
 
 }
 

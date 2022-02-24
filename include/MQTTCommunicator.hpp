@@ -12,43 +12,53 @@ class MQTTCommunicator {
     public:
         MQTTCommunicator(WiFiClient wifiClient);
 
-        // These get mapped to strings
-        // It's a little sparse now but will be useful later
-        enum SubscriptionTopic {
-            COMMAND
+        /*
+         * SubscriptionTopic and PublishTopic are the MQTT topics that are used by the device.
+         *
+         * Internally in this class they will get mapped to Strings.
+         * When refrencing a MQTT topic around the program use the values of these enums. Do not use Strings.
+        */
+        enum class SubscriptionTopic {
+            COMMAND // used to recieve OPEN and CLOSE commands
         };
-        enum PublishTopic {
-            LOG
+        enum class PublishTopic {
+            DEBUG_LOG, // For debugging
+            MACHINE_STATE, // Notifies the broker when a machine (e.g. tablesaw) is turned ON/OFF
+            GATE_STATE // Notifies the borker if the blast gate is opened or closed
         };
 
-        void publishLog(String msg);
+        /// Publishes a message to an MQTT topic
+        static void publish(String msg, MQTTCommunicator::PublishTopic topic);
         
-        // Connects to the MQTT broker
+        /// Gets the object ready for use.
         void init();
 
-        /*
-        Returns the state that it was commanded to be in by the MQTT broker.
-        If no command has been issued it simply returns the current state.
-
-        Will also attempt to reconnect to the MQTT broker if required. 
+        /**
+         * Will return the state that the last MQTT command directed.
+         * 
+         * Note that when this is called it 'consumes' the MQTT command that has been issued. I.e.
+         *   1. An MQTT command is received to OPEN
+         *   2. The next time process() is called it will return Core::State::OPEN
+         *   3. process() is called again. This time it returns Core::State::NULL_STATE, assuming there is no new MQTT command.
+         * 
         */
         Core::State process();
         
 
     private:
-        PubSubClient mqttClient;
-        bool updateFlag = false; // A flag that is set if a command has been recvied from the broker.
-        Core::State updatedState = Core::State::CLOSED;
-        void connect(); // Connect to MQTT broker
-        static void callback(char* topic, byte* payload, unsigned int length); // The callback function when a message is posted to a subscriced topic.
+        // Attrributes
+        static PubSubClient mqttClient;
+        static bool updateFlag; // A flag that is set if a command has been recvied from the broker.
+        static Core::State updatedState; // The state that the command specified.
+    
+        // Converts the values in the enum classes SubscribtionTopic and PublishTopic to MQTT topic strings.
+        const static std::map<MQTTCommunicator::SubscriptionTopic, String> subscriptionTopicStringMap;
+        const static std::map<MQTTCommunicator::PublishTopic, String> publishTopicStringMap;
 
+        /// Connect to MQTT broker
+        static void connect();
 
-        // Converts subscription/publish topics to actual strings.
-        static std::map<MQTTCommunicator::SubscriptionTopic, String> subscriptionTopicStringMap {
-            {MQTTCommunicator::SubscriptionTopic::COMMAND, String("DustCollection/") + Core::MQTT_DEVICE_UID + String("/In/Command")}
-        };
-        static std::map<MQTTCommunicator::PublishTopic, String> publishTopicStringMap {
-            {MQTTCommunicator::PublishTopic::LOG, String("DustCollection/") + Core::MQTT_DEVICE_UID + String("/Out/Log")}
-        };
+        /// The callback function when a message is posted to a subscriced topic.
+        static void callback(char* topic, byte* payload, unsigned int length); 
 
 };

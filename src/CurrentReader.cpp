@@ -1,5 +1,11 @@
 #include "CurrentReader.hpp"
 
+// Static members
+volatile uint16_t CurrentReader::lastADCValues[CurrentReader::lastADCValuesLength]  =  { };
+volatile uint16_t CurrentReader::lastADCValuesIndex = 0;
+
+
+
 // Constructor and start the hardware timer.
 CurrentReader::CurrentReader() : timer() {
     // Setup timer. Frequency ~= 160Hz. Callback to readADC().

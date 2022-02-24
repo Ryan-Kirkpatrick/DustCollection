@@ -8,10 +8,10 @@ class CurrentReader {
 
     private:
         ESP8266Timer timer;
-        static const uint16_t lastADCValuesLength = 100;
-        static volatile uint16_t lastADCValues[lastADCValuesLength]; // Stores the last X ADC values. 
+        static inline const uint16_t lastADCValuesLength = 100;
+        static volatile uint16_t lastADCValues[]; // Stores the last X ADC values. 
         static volatile uint16_t lastADCValuesIndex ;
-        const uint16 thresholdForMachineOn = 200; // If the average of the last X ADC values is above this the machine is considered on.
+        static inline const uint16 thresholdForMachineOn = 200; // If the average of the last X ADC values is above this the machine is considered on.
         static void IRAM_ATTR readADC(); // Having IRAM_ATTR in the header maybe breaks things, idk
 
     public:
