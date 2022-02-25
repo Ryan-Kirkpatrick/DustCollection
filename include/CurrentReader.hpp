@@ -1,8 +1,13 @@
 #pragma once
 
 #include <Arduino.h>
-#include <ESP8266TimerInterrupt.h>
 #include "Core.hpp"
+
+// Disable stupid timer accuracy warning. Why on earth this library used a warning instead of a message is beyond me.
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wcpp"
+#include <ESP8266TimerInterrupt.h>
+#pragma GCC diagnostic pop
 
 class CurrentReader {
 

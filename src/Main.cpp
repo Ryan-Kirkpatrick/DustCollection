@@ -111,7 +111,7 @@ void updateSolenoid(const Core::State overrideState = Core::State::BOOTING) {
     // Handle optional param
     Core::State solenoidState = Core::currentState;
     if (overrideState == Core::State::OPEN || overrideState == Core::State::CLOSED) {
-        solenoidState == overrideState;
+        solenoidState = overrideState;
     }
 
     // Open/ close gate
