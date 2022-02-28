@@ -215,6 +215,13 @@ void loop() {
     static bool lastMachineState = false;
     static Core::State lastState = Core::State::NULL_STATE;
 
+    static unsigned long lastMillis = 0;
+    
+    if ((millis() - lastMillis) > 10000) {
+        Core::log("Time keeping.");
+    }
+    
+
     //Check for state updates.
     decideState(); // Updates Core::currentState
 

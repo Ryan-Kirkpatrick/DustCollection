@@ -9,12 +9,12 @@ volatile int CurrentReader::lastADCValuesIndex = 0;
 // Constructor and start the hardware timer.
 CurrentReader::CurrentReader() : timer() {
     // Setup timer. Frequency ~= 160Hz. Callback to readADC().
-    timer.attachInterruptInterval(1000000/105, readADC);
+    timer.attachInterruptInterval(1000000/160, readADC);
 }
 
 // ISR for the timer interupt.
 // Reads the current value of the ADC and stores it to be averaged later.
-void IRAM_ATTR CurrentReader::readADC() {
+void ICACHE_RAM_ATTR CurrentReader::readADC() {
     lastADCValues[lastADCValuesIndex] = analogRead(Core::ADC_PIN);
     lastADCValuesIndex++;
     if (lastADCValuesIndex >= lastADCValuesLength) {
