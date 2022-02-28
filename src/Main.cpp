@@ -14,7 +14,7 @@ CurrentReader currentReader;
 namespace Core {
     void log(String msg) {
         Serial.println(msg);
-        mqttCommunicator.publish(msg, MQTTCommunicator::PublishTopic::DEBUG_LOG);
+        //mqttCommunicator.publish(msg, MQTTCommunicator::PublishTopic::DEBUG_LOG);
     }
 }
 
@@ -75,24 +75,25 @@ inline void setupPins() {
 
 }
 
+
 void setup() {
     // State
     Core::currentState = Core::State::BOOTING;
 
     //Serial
     Serial.begin(9600);
+    while (!Serial) {;}
 
     // Wifi
     setupWifI();
-
-    // MQTT
-    mqttCommunicator.init();
 
     // OTA
     setupOTA();
 
     // State
     Core::currentState = Core::State::CLOSED;
+
+    Core::log("Completed setup");
 }
 
 /**
@@ -168,6 +169,8 @@ inline void decideState() {
     // Handle MQTT
     Core::State mqttSuggestedState = mqttCommunicator.process();
 
+
+
     // If the machine is on the blast gate should always be open.
     if (currentReader.isMachineOn()) {
         Core::currentState = Core::State::OPEN;
@@ -206,7 +209,7 @@ void loop() {
             
             case Core::State::CLOSED:
                 close();
-                mqttCommunicator.publish("OPEN",MQTTCommunicator::PublishTopic::GATE_STATE);
+                mqttCommunicator.publish("CLOSED",MQTTCommunicator::PublishTopic::GATE_STATE);
                 break;
             
             default:
@@ -223,5 +226,8 @@ void loop() {
         lastMachineState = currentMachineState;
         mqttCommunicator.publish((currentMachineState) ? "ON" : "OFF", MQTTCommunicator::PublishTopic::MACHINE_STATE);
     }
+
+    // Update last state
+    lastState = Core::currentState;
     
 }

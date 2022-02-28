@@ -3,14 +3,14 @@
 #include "Core.hpp"
 #include "Secrets.hpp"
 #include <ESP8266WiFi.h>
-#include <PubSubClient.h>
+#include <ArduinoMqttClient.h>
 #include <map>
 #include <string>
 
 class MQTTCommunicator {
 
     public:
-        MQTTCommunicator(WiFiClient wifiClient);
+        MQTTCommunicator(WiFiClient &wifiClient);
 
         /*
          * SubscriptionTopic and PublishTopic are the MQTT topics that are used by the device.
@@ -28,10 +28,7 @@ class MQTTCommunicator {
         };
 
         /// Publishes a message to an MQTT topic
-        static void publish(String msg, MQTTCommunicator::PublishTopic topic);
-        
-        /// Gets the object ready for use.
-        void init();
+        void publish(String msg, MQTTCommunicator::PublishTopic topic);
 
         /**
          * Will return the state that the last MQTT command directed.
@@ -47,18 +44,15 @@ class MQTTCommunicator {
 
     private:
         // Attrributes
-        static PubSubClient mqttClient;
-        static bool updateFlag; // A flag that is set if a command has been recvied from the broker.
-        static Core::State updatedState; // The state that the command specified.
+        MqttClient mqttClient;
+        bool updateFlag; // A flag that is set if a command has been recvied from the broker.
+        Core::State updatedState; // The state that the command specified.
     
         // Converts the values in the enum classes SubscribtionTopic and PublishTopic to MQTT topic strings.
         const static std::map<MQTTCommunicator::SubscriptionTopic, String> subscriptionTopicStringMap;
         const static std::map<MQTTCommunicator::PublishTopic, String> publishTopicStringMap;
 
         /// Connect to MQTT broker
-        static void connect();
-
-        /// The callback function when a message is posted to a subscriced topic.
-        static void callback(char* topic, byte* payload, unsigned int length); 
+        void connect();
 
 };

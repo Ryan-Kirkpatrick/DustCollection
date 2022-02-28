@@ -1,10 +1,5 @@
 #include "MQTTCommunicator.hpp"
 
-// Static defintions
-Core::State MQTTCommunicator::updatedState = Core::State::CLOSED;
-bool MQTTCommunicator::updateFlag = false;
-PubSubClient MQTTCommunicator::mqttClient;
-
 /// Map enum SubscriptionTopic to actual MQTT topic strings.
 const std::map<MQTTCommunicator::SubscriptionTopic, String> MQTTCommunicator::subscriptionTopicStringMap {
     {MQTTCommunicator::SubscriptionTopic::COMMAND, String("DustCollection/") + Core::MQTT_DEVICE_UID + String("/In/Command")}
@@ -18,18 +13,9 @@ const std::map<MQTTCommunicator::PublishTopic, String> MQTTCommunicator::publish
 };
 
 /// Constructor
-MQTTCommunicator::MQTTCommunicator(WiFiClient wifiClient) {
-    mqttClient = PubSubClient(wifiClient);
+MQTTCommunicator::MQTTCommunicator(WiFiClient &wifiClient) : mqttClient(wifiClient), updatedState(Core::State::NULL_STATE), updateFlag(false) { 
+    mqttClient.setId(Core::MQTT_DEVICE_UID);
 }
-
-
-/// Sets up the MQTT client.
-void MQTTCommunicator::init() {
-    mqttClient.setServer(Core::MQTT_BROKER, Core::MQTT_PORT);
-    mqttClient.setCallback(callback);
-    connect();
-}
-
 
 /*
  * Publishes to a valid PublishTopic.
@@ -40,26 +26,30 @@ void MQTTCommunicator::publish(String msg, MQTTCommunicator::PublishTopic topic)
         return;
     }
 
-    mqttClient.publish(publishTopicStringMap.at(PublishTopic::DEBUG_LOG).c_str(), msg.c_str());
+    mqttClient.beginMessage(publishTopicStringMap.at(topic));
+    mqttClient.print(msg);
+    mqttClient.endMessage();
+    // Do not log this. It will cause an endless loop.
 }
 
 
 // Connect to broker
 void MQTTCommunicator::connect() {
-    Serial.print("Attempting MQTT connection...");
+    Serial.print("[MQTT] Attempting MQTT connection...");
     
     // Attempt to connect
-    if (mqttClient.connect(Core::MQTT_DEVICE_UID)) {
+    if (mqttClient.connect(Core::MQTT_BROKER, Core::MQTT_PORT)) {
         Serial.println("[MQTT Connection] Connected.");
         
         // Subscribe to topics
         for (auto &pair : subscriptionTopicStringMap) {
-            mqttClient.subscribe(pair.second.c_str()); // TODO Check if this works lmao
+            mqttClient.subscribe(pair.second); // TODO Check if this works lmao
         }
 
     } else {
+        Serial.println();
         Serial.print("[MQTT Connection] Failed, rc=");
-        Serial.print(mqttClient.state());
+        Serial.print(mqttClient.connectError());
         Serial.println();
     }
 }
@@ -72,53 +62,26 @@ void MQTTCommunicator::connect() {
  *   1. The updateFlag and updateState will be set, if the command was valid.
  * 
 */
-void MQTTCommunicator::callback(char* topic, byte* payload, unsigned int length) {
-    // Identify the topic
-    SubscriptionTopic subbedTopic;
-    bool topicFound = false;
-    for (auto &pair : subscriptionTopicStringMap) {
-        if (pair.second.c_str() == topic) {
-            subbedTopic = pair.first;
-            topicFound = true;
-            break;
-        }
-    }
-
-    if (!topicFound) {
-        return;
-    }
-
-    // Convert the payload to a String
-    const std::string payloadStr = reinterpret_cast<char*>(payload);
-    
-    // Take appririate action depending on content and topic.
-    switch (subbedTopic) {
-        
-        // Process commands
-        case SubscriptionTopic::COMMAND:
-            if (payloadStr == std::string("OPEN")) {
-                updateFlag = true;
-                updatedState = Core::State::OPEN;
-                Core::log("[MQTT] Command recieved to CLOSE");
-                return;
-            } else if (payloadStr == std::string("CLOSE")) {
-                updateFlag = true;
-                updatedState = Core::State::OPEN;
-                Core::log("[MQTT] Command recieved to CLOSE");
-                return;
-            } else {
-                Core::log("[MQTT] Invalid command recieved.");
-                return;
-            }
-        
-        default:
-            Core::log("[MQTT] Error. A topic was subscribed to but no logic has been coded for it. Check subscriptionTopicStringMap in MQTTCommunicator.cpp");
-            return;
-    }
-}
-
 // Return the updated state, if available.
 Core::State MQTTCommunicator::process() {
+    // Check connection
+    if (!mqttClient.connected()) {
+        connect();
+    }
+
+    // Process messages
+    String message = "";
+    if (mqttClient.parseMessage()) {
+        while (mqttClient.available()) {
+            message.concat((char) mqttClient.read());
+        }
+        Core::log("[MQTT] Recvieved MQTT message in topic " + mqttClient.messageTopic() + ", message contents:");
+        Core::log(message);
+    }
+
+    // Do the real logic.
+
+
     if (!updateFlag) {
         return Core::State::NULL_STATE;
     }

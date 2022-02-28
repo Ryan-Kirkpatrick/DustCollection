@@ -14,12 +14,12 @@ namespace Core {
     inline const int TOGGLE_BUTTON_PIN = -1;
 
     // WiFi
-    inline const char* WIFI_SSID = "HSBNE-Infra";
+    inline const char* WIFI_SSID = "FBI Van";
     inline const char* DEVICE_NAME = "BG-WS-TableSaw";
 
     //MQTT
-    inline const char* MQTT_BROKER = "junk";
-    inline const char* MQTT_DEVICE_UID = "junk";
+    inline const char* MQTT_BROKER = "test.mosquitto.org";
+    inline const char* MQTT_DEVICE_UID = "9eb8791e-967d-11ec-b909-0242ac120002";
     inline const int MQTT_PORT = 1883;
     // MQTT Topics are configured in MQTTCommunicator.h
     
