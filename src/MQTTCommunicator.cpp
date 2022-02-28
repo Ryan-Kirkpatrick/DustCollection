@@ -13,7 +13,7 @@ const std::map<MQTTCommunicator::PublishTopic, String> MQTTCommunicator::publish
 };
 
 /// Constructor
-MQTTCommunicator::MQTTCommunicator(WiFiClient &wifiClient) : mqttClient(wifiClient), updatedState(Core::State::NULL_STATE), updateFlag(false) { 
+MQTTCommunicator::MQTTCommunicator(WiFiClient &wifiClient) : mqttClient(wifiClient), updateFlag(false), updatedState(Core::State::NULL_STATE) { 
     mqttClient.setId(Core::MQTT_DEVICE_UID);
 }
 
@@ -35,7 +35,7 @@ void MQTTCommunicator::publish(String msg, MQTTCommunicator::PublishTopic topic)
 
 // Connect to broker
 void MQTTCommunicator::connect() {
-    Serial.print("[MQTT] Attempting MQTT connection...");
+    Serial.println("[MQTT] Attempting MQTT connection...");
     
     // Attempt to connect
     if (mqttClient.connect(Core::MQTT_BROKER, Core::MQTT_PORT)) {
@@ -69,19 +69,43 @@ Core::State MQTTCommunicator::process() {
         connect();
     }
 
-    // Process messages
-    String message = "";
+    // Parse messages
     if (mqttClient.parseMessage()) {
+        String message = "";
+        String topic = mqttClient.messageTopic();
         while (mqttClient.available()) {
             message.concat((char) mqttClient.read());
         }
-        Core::log("[MQTT] Recvieved MQTT message in topic " + mqttClient.messageTopic() + ", message contents:");
+        Core::log("[MQTT] Recvieved MQTT message in topic " + topic + ", message contents:");
         Core::log(message);
+    
+        // Process the message
+        // COMMANDS
+        if (topic == subscriptionTopicStringMap.at(SubscriptionTopic::COMMAND)) {
+            // OPEN
+            if (message == "OPEN") {
+                Core::log("[MQTT] Recevied OPEN command");
+                updatedState = Core::State::OPEN;
+                updateFlag = true;
+            // CLOSE
+            } else if (message == "CLOSE") {
+                Core::log("[MQTT] Recevied CLOSE command");
+                updatedState = Core::State::CLOSED;
+                updateFlag = true;
+            //ERROR
+            } else {
+                Core::log("[MQTT] Warning: received and invalid command. Valid commands are \"OPEN\" or \"CLOSE\" (case sensitive).");
+                Core::log("[MQTT] Command = " + message);
+            }
+        // Error
+        } else {
+            Core::log("[MQTT] Warning: recived message for a topic that I should not have. Check the subcription topic map.");
+            Core::log("[MQTT] Topic = " + topic);
+            Core::log("[MQTT] Message = " + message);
+        }
     }
 
-    // Do the real logic.
-
-
+    // Return
     if (!updateFlag) {
         return Core::State::NULL_STATE;
     }

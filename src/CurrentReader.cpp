@@ -1,15 +1,15 @@
 #include "CurrentReader.hpp"
 
 // Static members
-volatile uint16_t CurrentReader::lastADCValues[CurrentReader::lastADCValuesLength]  =  { };
-volatile uint16_t CurrentReader::lastADCValuesIndex = 0;
+volatile int CurrentReader::lastADCValues[CurrentReader::lastADCValuesLength]  =  { };
+volatile int CurrentReader::lastADCValuesIndex = 0;
 
 
 
 // Constructor and start the hardware timer.
 CurrentReader::CurrentReader() : timer() {
     // Setup timer. Frequency ~= 160Hz. Callback to readADC().
-    timer.attachInterruptInterval(1000000/160, readADC);
+    timer.attachInterruptInterval(1000000/105, readADC);
 }
 
 // ISR for the timer interupt.
@@ -24,8 +24,8 @@ void IRAM_ATTR CurrentReader::readADC() {
 
 bool CurrentReader::isMachineOn() {
     // Take average ADC value and compare against threshold to determine of machine is on.
-    uint32_t sum = 0;
-    for (uint16 i = 0; i < lastADCValuesLength; i++) {
+    unsigned int sum = 0;
+    for (unsigned int i = 0; i < lastADCValuesLength; i++) {
         sum += lastADCValues[i];
     }
     uint32 average = sum / lastADCValuesLength;

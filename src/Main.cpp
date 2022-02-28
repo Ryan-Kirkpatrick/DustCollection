@@ -13,14 +13,15 @@ CurrentReader currentReader;
 
 namespace Core {
     void log(String msg) {
+        msg = String(millis()) + "(ms) :: " + msg;
         Serial.println(msg);
-        //mqttCommunicator.publish(msg, MQTTCommunicator::PublishTopic::DEBUG_LOG);
+        mqttCommunicator.publish(msg, MQTTCommunicator::PublishTopic::DEBUG_LOG);
     }
 }
 
 // Setup and connect to WiFi
 inline void setupWifI() {
-    Serial.println("Starting WiFi");
+    Serial.println("[WiFi] Starting WiFi");
     WiFi.mode(WIFI_STA);
     WiFi.begin(Core::WIFI_SSID, Secrets::WIFI_PASSWORD);
     WiFi.hostname(Core::DEVICE_NAME);
@@ -28,9 +29,9 @@ inline void setupWifI() {
     // Block while WiFi connects
     while (WiFi.status() != WL_CONNECTED) {
         delay(250);
-        Serial.println("...");
+        Serial.println("[WiFi] ...");
     }
-    Core::log("WiFi Connected");
+    Core::log("[WiFi] WiFi Connected");
     Core::log(WiFi.localIP().toString());
 }
 
@@ -81,7 +82,7 @@ void setup() {
     Core::currentState = Core::State::BOOTING;
 
     //Serial
-    Serial.begin(9600);
+    Serial.begin(57600);
     while (!Serial) {;}
 
     // Wifi
@@ -164,30 +165,48 @@ inline void close() {
  *       
 */
 inline void decideState() {
-    static unsigned long lastMqttUpdate = 0;
+    static unsigned long lastTimeMqttUpdate = 0;
+    static unsigned long lastTimeMachineOn = 0;
+    static Core::State lastState = Core::State::NULL_STATE; // Just used to prevent log spam.
+    static const unsigned int machineOnTimeoutMillis = 15000; // How long for the gate to remain open after the machine has been switched off 
+    static const unsigned int mqttCommandTimeoutMillis = 15000; // How long MQTT commands are valid for
 
     // Handle MQTT
-    Core::State mqttSuggestedState = mqttCommunicator.process();
+    Core::State mqttSuggestedState = mqttCommunicator.process(); // NULL_STATE means no new commands have bene issued.
 
 
 
     // If the machine is on the blast gate should always be open.
-    if (currentReader.isMachineOn()) {
+    bool machineIsOn = currentReader.isMachineOn();
+    if (machineIsOn) {
+        if (lastState != Core::State::OPEN) {
+            Core::log("Machine is on.");
+        }
+        lastTimeMachineOn = millis();
         Core::currentState = Core::State::OPEN;
+        lastState = Core::currentState;
+        return;
     }
 
     // Check MQTT for state updates.
     if (mqttSuggestedState != Core::State::NULL_STATE) {
-        lastMqttUpdate = millis();
+        Core::log("MQTT gave open command");
+        lastTimeMqttUpdate = millis();
         Core::currentState = mqttSuggestedState;
+        lastState = Core::currentState;
+        return;
     }
 
-    // Close the gate if no MQTT commands have come in for 120s.
-    if (millis() - 120000 > lastMqttUpdate) {
+    // Close the gate if no MQTT commands have come in for the timeout period and the machine hasn't been on for a while
+    if ((millis() - lastTimeMqttUpdate) >  mqttCommandTimeoutMillis &&
+        (millis() - lastTimeMachineOn) > machineOnTimeoutMillis) {
+        if (lastState != Core::State::CLOSED) {
+            Core::log("MQTT OPEN command has expired and the machine hasn't been used for a while.");
+        }
         Core::currentState = Core::State::CLOSED;
+        lastState = Core::currentState;
+        return;
     }
-    
-
 }
 
 
@@ -229,5 +248,8 @@ void loop() {
 
     // Update last state
     lastState = Core::currentState;
+
+    // Easy there partner
+    delay(5);
     
 }
