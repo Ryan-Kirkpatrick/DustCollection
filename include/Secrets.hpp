@@ -7,5 +7,5 @@ namespace Secrets {
     inline const char* OTA_PASSWORD = "junk";
 
     // WIFI
-    inline const char* WIFI_PASSWORD = "blackplum574";
+    inline const char* WIFI_PASSWORD = "HSBNEPortHack";
 }

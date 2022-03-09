@@ -14,7 +14,7 @@ namespace Core {
     inline const int TOGGLE_BUTTON_PIN = -1;
 
     // WiFi
-    inline const char* WIFI_SSID = "FBI Van";
+    inline const char* WIFI_SSID = "HSBNEWiFi";
     inline const char* DEVICE_NAME = "BG-WS-TableSaw";
 
     //MQTT

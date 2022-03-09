@@ -30,5 +30,6 @@ bool CurrentReader::isMachineOn() {
     }
     uint32 average = sum / lastADCValuesLength;
     return average > thresholdForMachineOn;
+
 }
 
