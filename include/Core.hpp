@@ -10,7 +10,7 @@
 namespace Core {
     // Hardware
     inline const int ADC_PIN = A0;
-    inline const int SOLENOID_PIN = -1;
+    inline const int SOLENOID_PIN = D1;
     inline const int TOGGLE_BUTTON_PIN = -1;
 
     // WiFi

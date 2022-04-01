@@ -1,20 +1,20 @@
 #include "CurrentReader.hpp"
 
 // Static members
-volatile int CurrentReader::lastADCValues[CurrentReader::lastADCValuesLength]  =  { };
-volatile int CurrentReader::lastADCValuesIndex = 0;
+int CurrentReader::lastADCValues[CurrentReader::lastADCValuesLength]  =  { };
+int CurrentReader::lastADCValuesIndex = 0;
 
 
 
 // Constructor and start the hardware timer.
-CurrentReader::CurrentReader() : timer() {
+CurrentReader::CurrentReader() {
     // Setup timer. Frequency ~= 160Hz. Callback to readADC().
-    timer.attachInterruptInterval(1000000/160, readADC);
+    //timer.attachInterruptInterval(1000000/160, readADC);
 }
 
 // ISR for the timer interupt.
 // Reads the current value of the ADC and stores it to be averaged later.
-void ICACHE_RAM_ATTR CurrentReader::readADC() {
+void CurrentReader::readADC() {
     lastADCValues[lastADCValuesIndex] = analogRead(Core::ADC_PIN);
     lastADCValuesIndex++;
     if (lastADCValuesIndex >= lastADCValuesLength) {

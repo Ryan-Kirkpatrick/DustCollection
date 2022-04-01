@@ -91,6 +91,9 @@ void setup() {
     // OTA
     setupOTA();
 
+    // Pins
+    setupPins();
+
     // State
     Core::currentState = Core::State::CLOSED;
 
@@ -226,11 +229,13 @@ void loop() {
             case Core::State::OPEN:
                 open();
                 mqttCommunicator.publish("OPEN", MQTTCommunicator::PublishTopic::GATE_STATE);
+                mqttCommunicator.publish("OPEN", MQTTCommunicator::PublishTopic::DEBUG_LOG);
                 break;
             
             case Core::State::CLOSED:
                 close();
                 mqttCommunicator.publish("CLOSED",MQTTCommunicator::PublishTopic::GATE_STATE);
+                mqttCommunicator.publish("CLOSED", MQTTCommunicator::PublishTopic::DEBUG_LOG);
                 break;
             
             default:
@@ -252,9 +257,9 @@ void loop() {
     lastState = Core::currentState;
 
     //Core::log(String(analogRead(Core::ADC_PIN)));
-    Core::log(String(currentReader.isMachineOn()));
-
+    //Core::log(String(currentReader.isMachineOn()));
+    currentReader.readADC();
     // Easy there partner
-    delay(500);
+    delay(50);
     
 }
