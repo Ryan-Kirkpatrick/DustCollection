@@ -178,7 +178,6 @@ inline void decideState() {
     Core::State mqttSuggestedState = mqttCommunicator.process(); // NULL_STATE means no new commands have bene issued.
 
 
-
     // If the machine is on the blast gate should always be open.
     bool machineIsOn = currentReader.isMachineOn();
     if (machineIsOn) {
@@ -214,11 +213,17 @@ inline void decideState() {
 
 
 void loop() {
-    // Static intiialization
+    // Static intialization
     static bool lastMachineState = false;
     static Core::State lastState = Core::State::NULL_STATE;
 
-    static unsigned long lastMillis = 0;
+    static unsigned long lastHeapReportMillis = 0;
+
+    // Report heap useage every minute
+    if (millis() - lastHeapReportMillis > 60000) {
+        Core::log(String(ESP.getFreeHeap()));
+    }
+
 
     //Check for state updates.
     decideState(); // Updates Core::currentState
@@ -253,12 +258,15 @@ void loop() {
         mqttCommunicator.publish((currentMachineState) ? "ON" : "OFF", MQTTCommunicator::PublishTopic::MACHINE_STATE);
     }
 
+    // Handle OTA
+    ArduinoOTA.handle();
+
     // Update last state
     lastState = Core::currentState;
 
-    //Core::log(String(analogRead(Core::ADC_PIN)));
-    //Core::log(String(currentReader.isMachineOn()));
+    // Read the ADC
     currentReader.readADC();
+
     // Easy there partner
     delay(50);
     

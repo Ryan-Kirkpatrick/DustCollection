@@ -13,7 +13,7 @@ const std::map<MQTTCommunicator::PublishTopic, String> MQTTCommunicator::publish
 };
 
 /// Constructor
-MQTTCommunicator::MQTTCommunicator(WiFiClient &wifiClient) : mqttClient(wifiClient), updateFlag(false), updatedState(Core::State::NULL_STATE) { 
+MQTTCommunicator::MQTTCommunicator(WiFiClient& wifiClient) : mqttClient(wifiClient), updateFlag(false), updatedState(Core::State::NULL_STATE) { 
     mqttClient.setId(Core::MQTT_DEVICE_UID);
 }
 
@@ -23,6 +23,7 @@ MQTTCommunicator::MQTTCommunicator(WiFiClient &wifiClient) : mqttClient(wifiClie
 */ 
 void MQTTCommunicator::publish(String msg, MQTTCommunicator::PublishTopic topic) {
     if (!mqttClient.connected()) {
+        Serial.println("No connection to MQTT broker!");
         return;
     }
 
@@ -56,8 +57,6 @@ void MQTTCommunicator::connect() {
 
 
 /** 
- * Action to take when an MQTT message is recievied.
- * 
  * For the commands topic:
  *   1. The updateFlag and updateState will be set, if the command was valid.
  * 
@@ -68,6 +67,8 @@ Core::State MQTTCommunicator::process() {
     if (!mqttClient.connected()) {
         connect();
     }
+
+    mqttClient.poll();
 
     // Parse messages
     if (mqttClient.parseMessage()) {
