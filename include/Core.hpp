@@ -6,6 +6,7 @@
 #include <Arduino.h>
 #include <vector>
 #include <ESP8266WiFi.h>
+#include <string>
 
 namespace Core {
     // Hardware
@@ -24,7 +25,7 @@ namespace Core {
     // MQTT Topics are configured in MQTTCommunicator.h
     
     // Functions
-    void log(String msg);
+    void log(std::string msg);
 
     // Internal Logic
     enum class State {

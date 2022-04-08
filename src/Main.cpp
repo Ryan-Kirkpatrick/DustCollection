@@ -12,10 +12,10 @@ MQTTCommunicator mqttCommunicator(wifiClient);
 CurrentReader currentReader;
 
 namespace Core {
-    void log(String msg) {
-        msg = String(millis()) + "(ms) :: " + msg;
-        Serial.println(msg);
-        mqttCommunicator.publish(msg, MQTTCommunicator::PublishTopic::DEBUG_LOG);
+    void log(std::string msg) {
+        msg = std::to_string(millis()) + "(ms) :: " + msg;
+        Serial.println(msg.c_str());
+        mqttCommunicator.publish(msg.c_str(), MQTTCommunicator::PublishTopic::DEBUG_LOG);
     }
 }
 
@@ -32,7 +32,7 @@ inline void setupWifI() {
         Serial.println("[WiFi] ...");
     }
     Core::log("[WiFi] WiFi Connected");
-    Core::log(WiFi.localIP().toString());
+    Core::log(WiFi.localIP().toString().c_str());
 }
 
 
@@ -221,7 +221,7 @@ void loop() {
 
     // Report heap useage every minute
     if (millis() - lastHeapReportMillis > 60000) {
-        Core::log(String(ESP.getFreeHeap()));
+        Core::log(std::to_string(ESP.getFreeHeap()));
     }
 
 

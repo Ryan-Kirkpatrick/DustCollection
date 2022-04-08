@@ -28,7 +28,7 @@ class MQTTCommunicator {
         };
 
         /// Publishes a message to an MQTT topic
-        void publish(String msg, MQTTCommunicator::PublishTopic topic);
+        void publish(std::string msg, MQTTCommunicator::PublishTopic topic);
 
         /**
          * Will return the state that the last MQTT command directed.
@@ -49,8 +49,8 @@ class MQTTCommunicator {
         Core::State updatedState; // The state that the command specified.
     
         // Converts the values in the enum classes SubscribtionTopic and PublishTopic to MQTT topic strings.
-        const static std::map<MQTTCommunicator::SubscriptionTopic, String> subscriptionTopicStringMap;
-        const static std::map<MQTTCommunicator::PublishTopic, String> publishTopicStringMap;
+        const static std::map<MQTTCommunicator::SubscriptionTopic, std::string> subscriptionTopicStringMap;
+        const static std::map<MQTTCommunicator::PublishTopic, std::string> publishTopicStringMap;
 
         /// Connect to MQTT broker
         void connect();

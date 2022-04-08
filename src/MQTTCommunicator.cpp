@@ -1,15 +1,15 @@
 #include "MQTTCommunicator.hpp"
 
 /// Map enum SubscriptionTopic to actual MQTT topic strings.
-const std::map<MQTTCommunicator::SubscriptionTopic, String> MQTTCommunicator::subscriptionTopicStringMap {
-    {MQTTCommunicator::SubscriptionTopic::COMMAND, String("DustCollection/") + Core::MQTT_DEVICE_UID + String("/In/Command")}
+const std::map<MQTTCommunicator::SubscriptionTopic, std::string> MQTTCommunicator::subscriptionTopicStringMap {
+    {MQTTCommunicator::SubscriptionTopic::COMMAND, std::string("DustCollection/") + Core::MQTT_DEVICE_UID + std::string("/In/Command")}
 };
 
 /// Map enum PublishTopic to actuall MQTT topic strings.
-const std::map<MQTTCommunicator::PublishTopic, String> MQTTCommunicator::publishTopicStringMap {
-    {MQTTCommunicator::PublishTopic::DEBUG_LOG, String("DustCollection/") + Core::MQTT_DEVICE_UID + String("/Out/ConsoleLog")},
-    {MQTTCommunicator::PublishTopic::MACHINE_STATE, String("DustCollection/") + Core::MQTT_DEVICE_UID + String("/Out/MachineState")},
-    {MQTTCommunicator::PublishTopic::GATE_STATE, String("DustCollection/") + Core::MQTT_DEVICE_UID + String("/Out/GateState")}
+const std::map<MQTTCommunicator::PublishTopic, std::string> MQTTCommunicator::publishTopicStringMap {
+    {MQTTCommunicator::PublishTopic::DEBUG_LOG, std::string("DustCollection/") + Core::MQTT_DEVICE_UID + std::string("/Out/ConsoleLog")},
+    {MQTTCommunicator::PublishTopic::MACHINE_STATE, std::string("DustCollection/") + Core::MQTT_DEVICE_UID + std::string("/Out/MachineState")},
+    {MQTTCommunicator::PublishTopic::GATE_STATE, std::string("DustCollection/") + Core::MQTT_DEVICE_UID + std::string("/Out/GateState")}
 };
 
 /// Constructor
@@ -21,14 +21,14 @@ MQTTCommunicator::MQTTCommunicator(WiFiClient& wifiClient) : mqttClient(wifiClie
  * Publishes to a valid PublishTopic.
  * Does nothing if the mqttClient is not connected.
 */ 
-void MQTTCommunicator::publish(String msg, MQTTCommunicator::PublishTopic topic) {
+void MQTTCommunicator::publish(std::string msg, MQTTCommunicator::PublishTopic topic) {
     if (!mqttClient.connected()) {
         Serial.println("No connection to MQTT broker!");
         return;
     }
 
-    mqttClient.beginMessage(publishTopicStringMap.at(topic));
-    mqttClient.print(msg);
+    mqttClient.beginMessage(publishTopicStringMap.at(topic).c_str());
+    mqttClient.print(msg.c_str());
     mqttClient.endMessage();
     // Do not log this. It will cause an endless loop.
 }
@@ -44,7 +44,7 @@ void MQTTCommunicator::connect() {
         
         // Subscribe to topics
         for (auto &pair : subscriptionTopicStringMap) {
-            mqttClient.subscribe(pair.second); // TODO Check if this works lmao
+            mqttClient.subscribe(pair.second.c_str()); // TODO Check if this works lmao
         }
 
     } else {
@@ -72,10 +72,10 @@ Core::State MQTTCommunicator::process() {
 
     // Parse messages
     if (mqttClient.parseMessage()) {
-        String message = "";
-        String topic = mqttClient.messageTopic();
+        std::string message = "";
+        std::string topic = mqttClient.messageTopic().c_str();
         while (mqttClient.available()) {
-            message.concat((char) mqttClient.read());
+            message += (char) mqttClient.read();
         }
         Core::log("[MQTT] Recvieved MQTT message in topic " + topic + ", message contents:");
         Core::log(message);
