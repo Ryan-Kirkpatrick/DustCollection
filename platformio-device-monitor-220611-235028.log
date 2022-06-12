@@ -1,0 +1,2674 @@
+23:50:33.942 > MQTT connection established
+23:50:33.942 > 10.0.0.102
+23:50:34.525 > 0$n��`,ll�pd>�ȴ<���Opening the blast gate.
+23:50:34.842 > 47144
+23:50:41.802 > MQTT connection established
+23:50:41.802 > 10.0.0.102
+23:51:14.964 > Closing the blast gate.
+23:51:18.389 > Opening the blast gate.
+23:51:18.389 > 43000
+23:51:31.025 > Closing the blast gate.
+23:51:44.467 > Opening the blast gate.
+23:51:44.467 > 43000
+23:52:30.047 > Closing the blast gate.
+23:52:46.519 > Opening the blast gate.
+23:52:46.520 > 43000
+23:53:34.110 > Closing the blast gate.
+23:54:01.629 > Opening the blast gate.
+23:54:01.629 > 43000
+23:54:56.268 > Received MQTT OPEN command
+23:55:56.312 > Closing the blast gate.
+23:56:23.826 > Opening the blast gate.
+23:56:23.826 > 43000
+23:57:20.473 > Closing the blast gate.
+23:57:28.718 > Opening the blast gate.
+23:57:28.719 > 43000
+23:58:35.390 > Closing the blast gate.
+23:58:50.857 > Opening the blast gate.
+23:58:50.857 > 43000
+23:59:52.510 > Closing the blast gate.
+00:00:25.853 > Opening the blast gate.
+00:00:25.853 > 43000
+00:01:29.529 > Closing the blast gate.
+00:01:35.968 > Opening the blast gate.
+00:01:35.969 > 43000
+00:02:44.655 > Closing the blast gate.
+00:03:04.149 > Opening the blast gate.
+00:03:04.149 > 43000
+00:03:44.723 > Closing the blast gate.
+00:04:02.194 > Opening the blast gate.
+00:04:02.194 > 43000
+00:04:51.804 > Closing the blast gate.
+00:04:56.433 > Received MQTT CLOSE command
+00:05:15.113 > Opening the blast gate.
+00:05:15.113 > 43000
+00:05:57.900 > Closing the blast gate.
+00:06:27.235 > Opening the blast gate.
+00:06:27.235 > 43000
+00:07:20.047 > Closing the blast gate.
+00:07:46.370 > Opening the blast gate.
+00:07:46.370 > 42672
+00:09:36.015 > Closing the blast gate.
+00:10:14.581 > Opening the blast gate.
+00:10:14.582 > 43000
+00:10:37.074 > Closing the blast gate.
+00:10:49.540 > Opening the blast gate.
+00:10:49.540 > 43000
+00:11:03.192 > Closing the blast gate.
+00:11:04.603 > Opening the blast gate.
+00:11:04.603 > 43000
+00:11:44.168 > Closing the blast gate.
+00:11:55.626 > Opening the blast gate.
+00:11:55.627 > 43000
+00:12:51.269 > Closing the blast gate.
+00:13:32.660 > Opening the blast gate.
+00:13:32.661 > 43000
+00:14:05.393 > Closing the blast gate.
+00:14:46.758 > Opening the blast gate.
+00:14:46.759 > 43000
+00:14:56.400 > Received MQTT OPEN command
+00:16:55.503 > Closing the blast gate.
+00:17:28.842 > Opening the blast gate.
+00:17:28.843 > 43000
+00:17:58.562 > Closing the blast gate.
+00:18:02.990 > Opening the blast gate.
+00:18:02.991 > 43000
+00:19:09.677 > Closing the blast gate.
+00:19:34.992 > Opening the blast gate.
+00:19:34.992 > 43000
+00:21:13.615 > Closing the blast gate.
+00:21:30.094 > Opening the blast gate.
+00:21:30.094 > 43000
+00:22:13.678 > Closing the blast gate.
+00:22:14.091 > Opening the blast gate.
+00:22:14.091 > 43000
+00:23:09.729 > Closing the blast gate.
+00:23:12.143 > Opening the blast gate.
+00:23:12.144 > 43000
+00:23:35.838 > Closing the blast gate.
+00:24:13.200 > Opening the blast gate.
+00:24:13.200 > 43000
+00:24:56.390 > Received MQTT CLOSE command
+00:25:14.863 > Closing the blast gate.
+00:25:36.365 > Opening the blast gate.
+00:25:36.365 > 43000
+00:26:11.900 > Closing the blast gate.
+00:26:43.446 > Opening the blast gate.
+00:26:43.446 > 43000
+00:27:14.967 > Closing the blast gate.
+00:27:42.493 > Opening the blast gate.
+00:27:42.494 > 43000
+00:28:29.084 > Closing the blast gate.
+00:29:08.466 > Opening the blast gate.
+00:29:08.466 > 43000
+00:30:00.090 > Closing the blast gate.
+00:30:34.651 > Opening the blast gate.
+00:30:34.651 > 43000
+00:31:32.300 > Closing the blast gate.
+00:32:20.520 > Opening the blast gate.
+00:32:20.520 > 43000
+00:32:42.211 > Closing the blast gate.
+00:33:00.702 > Opening the blast gate.
+00:33:00.703 > 43000
+00:33:42.276 > Closing the blast gate.
+00:33:57.744 > Opening the blast gate.
+00:33:57.744 > 43000
+00:34:28.274 > Closing the blast gate.
+00:34:34.711 > Opening the blast gate.
+00:34:34.711 > 43000
+00:34:56.405 > Received MQTT OPEN command
+00:35:56.461 > Closing the blast gate.
+00:36:06.715 > Opening the blast gate.
+00:36:06.715 > 43000
+00:36:44.483 > Closing the blast gate.
+00:36:44.895 > Opening the blast gate.
+00:36:44.895 > 43000
+00:37:04.580 > Closing the blast gate.
+00:37:33.918 > Opening the blast gate.
+00:37:33.919 > 43000
+00:38:02.641 > Closing the blast gate.
+00:38:14.888 > Opening the blast gate.
+00:38:14.888 > 43000
+00:38:57.675 > Closing the blast gate.
+00:39:05.920 > Opening the blast gate.
+00:39:05.921 > 43000
+00:39:20.580 > Closing the blast gate.
+00:39:57.954 > Opening the blast gate.
+00:39:57.954 > 43000
+00:40:26.677 > Closing the blast gate.
+00:40:43.956 > Opening the blast gate.
+00:40:43.956 > 42672
+00:42:07.711 > Closing the blast gate.
+00:42:38.051 > Opening the blast gate.
+00:42:38.051 > 42672
+00:43:24.855 > Closing the blast gate.
+00:43:26.070 > Opening the blast gate.
+00:43:26.070 > 43000
+00:43:38.716 > Closing the blast gate.
+00:44:06.242 > Opening the blast gate.
+00:44:06.243 > 43000
+00:44:56.459 > Received MQTT CLOSE command
+00:45:15.937 > Closing the blast gate.
+00:45:23.175 > Opening the blast gate.
+00:45:23.175 > 43000
+00:45:38.836 > Closing the blast gate.
+00:46:06.357 > Opening the blast gate.
+00:46:06.357 > 43000
+00:46:59.973 > Closing the blast gate.
+00:47:26.291 > Opening the blast gate.
+00:47:26.291 > 43000
+00:48:23.138 > Closing the blast gate.
+00:48:35.400 > Opening the blast gate.
+00:48:35.400 > 43000
+00:49:43.093 > Closing the blast gate.
+00:50:24.472 > Opening the blast gate.
+00:50:24.472 > 42848
+00:51:03.240 > Closing the blast gate.
+00:51:51.650 > Opening the blast gate.
+00:51:51.650 > 43000
+00:52:38.237 > Closing the blast gate.
+00:52:57.719 > Opening the blast gate.
+00:52:57.719 > 43000
+00:54:56.417 > Received MQTT OPEN command
+00:56:24.392 > Closing the blast gate.
+00:56:47.903 > Opening the blast gate.
+00:56:47.903 > 43000
+00:57:53.570 > Closing the blast gate.
+00:58:22.898 > Opening the blast gate.
+00:58:22.899 > 43000
+01:00:03.706 > Closing the blast gate.
+01:00:37.055 > Opening the blast gate.
+01:00:37.055 > 43000
+01:02:02.813 > Closing the blast gate.
+01:02:13.057 > Opening the blast gate.
+01:02:13.057 > 43000
+01:02:41.766 > Closing the blast gate.
+01:03:14.119 > Opening the blast gate.
+01:03:14.119 > 43000
+01:03:50.874 > Closing the blast gate.
+01:04:34.274 > Opening the blast gate.
+01:04:34.274 > 43000
+01:04:56.558 > Received MQTT CLOSE command
+01:05:07.988 > Closing the blast gate.
+01:05:20.239 > Opening the blast gate.
+01:05:20.239 > 43000
+01:06:37.960 > Closing the blast gate.
+01:07:10.513 > Opening the blast gate.
+01:07:10.513 > 43000
+01:07:47.065 > Closing the blast gate.
+01:08:00.528 > Opening the blast gate.
+01:08:00.528 > 43000
+01:08:27.037 > Closing the blast gate.
+01:08:41.500 > Opening the blast gate.
+01:08:41.500 > 43000
+01:09:30.095 > Closing the blast gate.
+01:10:18.515 > Opening the blast gate.
+01:10:18.515 > 43000
+01:11:06.326 > Closing the blast gate.
+01:11:53.539 > Opening the blast gate.
+01:11:53.539 > 43000
+01:12:44.353 > Closing the blast gate.
+01:13:04.655 > Opening the blast gate.
+01:13:04.655 > 43000
+01:13:28.356 > Closing the blast gate.
+01:13:50.660 > Opening the blast gate.
+01:13:50.660 > 43000
+01:14:38.457 > Closing the blast gate.
+01:14:48.705 > Opening the blast gate.
+01:14:48.706 > 43000
+01:14:56.340 > Received MQTT OPEN command
+01:16:01.422 > Closing the blast gate.
+01:16:26.940 > Opening the blast gate.
+01:16:26.941 > 42984
+01:17:12.528 > Closing the blast gate.
+01:17:51.905 > Opening the blast gate.
+01:17:51.905 > 43000
+01:18:11.597 > Closing the blast gate.
+01:18:15.021 > Opening the blast gate.
+01:18:15.021 > 43000
+01:19:25.719 > Closing the blast gate.
+01:20:12.125 > Opening the blast gate.
+01:20:12.125 > 43000
+01:21:22.811 > Closing the blast gate.
+01:21:55.160 > Opening the blast gate.
+01:21:55.160 > 43000
+01:22:12.840 > Closing the blast gate.
+01:22:48.201 > Opening the blast gate.
+01:22:48.201 > 43000
+01:23:20.728 > Closing the blast gate.
+01:24:02.321 > Opening the blast gate.
+01:24:02.321 > 43000
+01:24:22.809 > Closing the blast gate.
+01:24:34.271 > Opening the blast gate.
+01:24:34.271 > 43000
+01:24:55.962 > Closing the blast gate.
+01:24:56.374 > Received MQTT CLOSE command
+01:25:23.281 > Opening the blast gate.
+01:25:23.281 > 43000
+01:26:45.041 > Closing the blast gate.
+01:27:32.442 > Opening the blast gate.
+01:27:32.442 > 43000
+01:28:01.153 > Closing the blast gate.
+01:28:16.426 > Opening the blast gate.
+01:28:16.426 > 43000
+01:29:24.104 > Closing the blast gate.
+01:30:08.505 > Opening the blast gate.
+01:30:08.505 > 42984
+01:30:46.254 > Closing the blast gate.
+01:31:00.529 > Opening the blast gate.
+01:31:00.530 > 42984
+01:31:31.261 > Closing the blast gate.
+01:32:08.635 > Opening the blast gate.
+01:32:08.635 > 43000
+01:33:20.315 > Closing the blast gate.
+01:33:36.787 > Opening the blast gate.
+01:33:36.787 > 43000
+01:34:56.511 > Received MQTT OPEN command
+01:36:37.516 > Closing the blast gate.
+01:36:48.968 > Opening the blast gate.
+01:36:48.968 > 43000
+01:38:22.559 > Closing the blast gate.
+01:38:24.979 > Opening the blast gate.
+01:38:24.979 > 43000
+01:39:13.587 > Closing the blast gate.
+01:39:31.070 > Opening the blast gate.
+01:39:31.070 > 43000
+01:40:12.640 > Closing the blast gate.
+01:40:33.122 > Opening the blast gate.
+01:40:33.122 > 43000
+01:42:04.707 > Closing the blast gate.
+01:42:47.287 > Opening the blast gate.
+01:42:47.287 > 43000
+01:43:10.773 > Closing the blast gate.
+01:43:58.187 > Opening the blast gate.
+01:43:58.187 > 43000
+01:44:49.006 > Closing the blast gate.
+01:44:56.447 > Received MQTT CLOSE command
+01:45:05.276 > Opening the blast gate.
+01:45:05.276 > 43000
+01:46:21.997 > Closing the blast gate.
+01:46:48.319 > Opening the blast gate.
+01:46:48.319 > 43000
+01:47:33.095 > Closing the blast gate.
+01:48:18.499 > Opening the blast gate.
+01:48:18.499 > 43000
+01:48:51.239 > Closing the blast gate.
+01:49:20.577 > Opening the blast gate.
+01:49:20.577 > 43000
+01:49:45.267 > Closing the blast gate.
+01:50:07.575 > Opening the blast gate.
+01:50:07.576 > 42920
+01:50:35.293 > Closing the blast gate.
+01:51:01.615 > Opening the blast gate.
+01:51:01.615 > 42920
+01:51:59.265 > Closing the blast gate.
+01:52:00.683 > Opening the blast gate.
+01:52:00.683 > 43000
+01:52:18.357 > Closing the blast gate.
+01:52:24.789 > Opening the blast gate.
+01:52:24.789 > 43000
+01:53:19.412 > Closing the blast gate.
+01:53:43.724 > Opening the blast gate.
+01:53:43.724 > 43000
+01:54:27.512 > Closing the blast gate.
+01:54:56.430 > Received MQTT OPEN command
+01:54:56.635 > Opening the blast gate.
+01:54:56.635 > 43000
+01:55:56.477 > Closing the blast gate.
+01:56:20.977 > Opening the blast gate.
+01:56:20.977 > 43000
+01:57:22.636 > Closing the blast gate.
+01:58:04.028 > Opening the blast gate.
+01:58:04.028 > 43000
+01:58:17.668 > Closing the blast gate.
+01:58:27.118 > Opening the blast gate.
+01:58:27.118 > 43000
+01:58:48.609 > Closing the blast gate.
+01:59:15.132 > Opening the blast gate.
+01:59:15.132 > 43000
+02:01:18.827 > Closing the blast gate.
+02:01:35.306 > Opening the blast gate.
+02:01:35.306 > 43000
+02:01:51.976 > Closing the blast gate.
+02:01:55.200 > Opening the blast gate.
+02:01:55.200 > 43000
+02:03:58.929 > Closing the blast gate.
+02:04:10.386 > Opening the blast gate.
+02:04:10.386 > 43000
+02:04:35.089 > Closing the blast gate.
+02:04:56.576 > Received MQTT CLOSE command
+02:05:22.476 > Opening the blast gate.
+02:05:22.476 > 43000
+02:06:23.137 > Closing the blast gate.
+02:06:37.600 > Opening the blast gate.
+02:06:37.600 > 43000
+02:07:44.082 > Closing the blast gate.
+02:07:54.532 > Opening the blast gate.
+02:07:54.532 > 43000
+02:08:17.219 > Closing the blast gate.
+02:08:34.502 > Opening the blast gate.
+02:08:34.503 > 43000
+02:09:00.216 > Closing the blast gate.
+02:09:18.505 > Opening the blast gate.
+02:09:18.505 > 43000
+02:10:24.188 > Closing the blast gate.
+02:10:28.617 > Opening the blast gate.
+02:10:28.618 > 43000
+02:11:28.276 > Closing the blast gate.
+02:11:39.736 > Opening the blast gate.
+02:11:39.736 > 43000
+02:12:42.407 > Closing the blast gate.
+02:12:42.819 > Opening the blast gate.
+02:12:42.819 > 43000
+02:14:14.410 > Closing the blast gate.
+02:14:29.889 > Opening the blast gate.
+02:14:29.890 > 43000
+02:14:56.406 > Received MQTT OPEN command
+02:15:56.450 > Closing the blast gate.
+02:16:03.887 > Opening the blast gate.
+02:16:03.887 > 43000
+02:16:49.682 > Closing the blast gate.
+02:17:10.987 > Opening the blast gate.
+02:17:10.987 > 43000
+02:18:12.649 > Closing the blast gate.
+02:18:16.070 > Opening the blast gate.
+02:18:16.070 > 43000
+02:20:07.743 > Closing the blast gate.
+02:20:17.174 > Opening the blast gate.
+02:20:17.174 > 43000
+02:20:40.867 > Closing the blast gate.
+02:21:18.216 > Opening the blast gate.
+02:21:18.216 > 43000
+02:21:34.872 > Closing the blast gate.
+02:22:23.293 > Opening the blast gate.
+02:22:23.294 > 43000
+02:23:21.944 > Closing the blast gate.
+02:23:49.266 > Opening the blast gate.
+02:23:49.266 > 43000
+02:24:56.362 > Received MQTT CLOSE command
+02:25:33.095 > Closing the blast gate.
+02:26:20.496 > Opening the blast gate.
+02:26:20.497 > 43000
+02:27:10.104 > Closing the blast gate.
+02:27:25.569 > Opening the blast gate.
+02:27:25.569 > 43000
+02:28:50.336 > Closing the blast gate.
+02:29:34.724 > Opening the blast gate.
+02:29:34.724 > 43000
+02:30:07.267 > Closing the blast gate.
+02:30:53.675 > Opening the blast gate.
+02:30:53.676 > 43000
+02:32:05.374 > Closing the blast gate.
+02:32:36.703 > Opening the blast gate.
+02:32:36.703 > 43000
+02:33:05.430 > Closing the blast gate.
+02:33:08.848 > Opening the blast gate.
+02:33:08.848 > 43000
+02:34:07.487 > Closing the blast gate.
+02:34:11.916 > Opening the blast gate.
+02:34:11.916 > 43000
+02:34:32.402 > Closing the blast gate.
+02:34:56.512 > Received MQTT OPEN command
+02:34:56.717 > Opening the blast gate.
+02:34:56.717 > 43000
+02:35:56.551 > Closing the blast gate.
+02:36:06.002 > Opening the blast gate.
+02:36:06.002 > 43000
+02:38:00.690 > Closing the blast gate.
+02:38:14.155 > Opening the blast gate.
+02:38:14.156 > 43000
+02:40:08.833 > Closing the blast gate.
+02:40:52.227 > Opening the blast gate.
+02:40:52.227 > 43016
+02:41:38.812 > Closing the blast gate.
+02:41:43.239 > Opening the blast gate.
+02:41:43.239 > 43016
+02:42:19.994 > Closing the blast gate.
+02:42:26.231 > Opening the blast gate.
+02:42:26.231 > 43016
+02:43:49.979 > Closing the blast gate.
+02:44:18.297 > Opening the blast gate.
+02:44:18.298 > 43000
+02:44:56.448 > Received MQTT CLOSE command
+02:45:13.117 > Closing the blast gate.
+02:45:47.476 > Opening the blast gate.
+02:45:47.476 > 43000
+02:46:08.150 > Closing the blast gate.
+02:46:23.427 > Opening the blast gate.
+02:46:23.428 > 43000
+02:47:07.211 > Closing the blast gate.
+02:47:35.525 > Opening the blast gate.
+02:47:35.525 > 43000
+02:48:01.238 > Closing the blast gate.
+02:48:10.689 > Opening the blast gate.
+02:48:10.689 > 43000
+02:48:40.213 > Closing the blast gate.
+02:48:53.672 > Opening the blast gate.
+02:48:53.672 > 43000
+02:50:14.406 > Closing the blast gate.
+02:50:15.817 > Opening the blast gate.
+02:50:15.817 > 42848
+02:51:15.460 > Closing the blast gate.
+02:51:26.719 > Opening the blast gate.
+02:51:26.719 > 43000
+02:51:52.428 > Closing the blast gate.
+02:52:14.928 > Opening the blast gate.
+02:52:14.928 > 43000
+02:52:36.422 > Closing the blast gate.
+02:53:24.831 > Opening the blast gate.
+02:53:24.832 > 43000
+02:53:48.531 > Closing the blast gate.
+02:54:29.918 > Opening the blast gate.
+02:54:29.918 > 43000
+02:54:56.435 > Received MQTT OPEN command
+02:56:30.605 > Closing the blast gate.
+02:56:52.107 > Opening the blast gate.
+02:56:52.107 > 43000
+02:57:39.710 > Closing the blast gate.
+02:58:19.277 > Opening the blast gate.
+02:58:19.277 > 43000
+02:59:23.745 > Closing the blast gate.
+02:59:43.239 > Opening the blast gate.
+02:59:43.239 > 43000
+03:00:54.936 > Closing the blast gate.
+03:00:59.369 > Opening the blast gate.
+03:00:59.369 > 43000
+03:02:05.055 > Closing the blast gate.
+03:02:50.447 > Opening the blast gate.
+03:02:50.447 > 43000
+03:03:13.131 > Closing the blast gate.
+03:03:43.469 > Opening the blast gate.
+03:03:43.469 > 43000
+03:04:40.108 > Closing the blast gate.
+03:04:56.591 > Received MQTT CLOSE command
+03:05:22.493 > Opening the blast gate.
+03:05:22.494 > 43000
+03:06:24.146 > Closing the blast gate.
+03:07:00.517 > Opening the blast gate.
+03:07:00.517 > 43000
+03:08:29.301 > Closing the blast gate.
+03:09:05.670 > Opening the blast gate.
+03:09:05.671 > 43000
+03:09:49.444 > Closing the blast gate.
+03:09:59.694 > Opening the blast gate.
+03:09:59.694 > 43000
+03:10:52.506 > Closing the blast gate.
+03:11:05.764 > Opening the blast gate.
+03:11:05.764 > 43000
+03:13:44.638 > Closing the blast gate.
+03:14:06.947 > Opening the blast gate.
+03:14:06.947 > 43000
+03:14:56.558 > Received MQTT OPEN command
+03:16:17.692 > Closing the blast gate.
+03:16:35.176 > Opening the blast gate.
+03:16:35.177 > 43000
+03:17:14.745 > Closing the blast gate.
+03:17:37.249 > Opening the blast gate.
+03:17:37.250 > 43000
+03:18:44.931 > Closing the blast gate.
+03:19:11.246 > Opening the blast gate.
+03:19:11.247 > 43000
+03:19:34.948 > Closing the blast gate.
+03:19:44.195 > Opening the blast gate.
+03:19:44.196 > 43000
+03:20:23.957 > Closing the blast gate.
+03:21:09.367 > Opening the blast gate.
+03:21:09.367 > 43000
+03:21:32.050 > Closing the blast gate.
+03:22:10.425 > Opening the blast gate.
+03:22:10.426 > 43000
+03:22:42.153 > Closing the blast gate.
+03:23:12.490 > Opening the blast gate.
+03:23:12.490 > 43000
+03:24:45.272 > Closing the blast gate.
+03:24:56.531 > Received MQTT CLOSE command
+03:25:14.597 > Opening the blast gate.
+03:25:14.598 > 43000
+03:25:38.299 > Closing the blast gate.
+03:25:39.714 > Opening the blast gate.
+03:25:39.714 > 43000
+03:26:37.348 > Closing the blast gate.
+03:27:21.742 > Opening the blast gate.
+03:27:21.742 > 43000
+03:27:59.505 > Closing the blast gate.
+03:28:20.806 > Opening the blast gate.
+03:28:20.806 > 43000
+03:28:41.491 > Closing the blast gate.
+03:28:56.765 > Opening the blast gate.
+03:28:56.765 > 43000
+03:29:16.450 > Closing the blast gate.
+03:29:24.897 > Opening the blast gate.
+03:29:24.897 > 43000
+03:30:13.504 > Closing the blast gate.
+03:30:47.058 > Opening the blast gate.
+03:30:47.058 > 43000
+03:31:38.661 > Closing the blast gate.
+03:32:10.009 > Opening the blast gate.
+03:32:10.010 > 43000
+03:33:21.717 > Closing the blast gate.
+03:33:56.076 > Opening the blast gate.
+03:33:56.076 > 43000
+03:34:11.747 > Closing the blast gate.
+03:34:36.263 > Opening the blast gate.
+03:34:36.263 > 43000
+03:34:56.552 > Received MQTT OPEN command
+03:36:22.915 > Closing the blast gate.
+03:36:32.165 > Opening the blast gate.
+03:36:32.165 > 43000
+03:36:48.820 > Closing the blast gate.
+03:37:36.413 > Opening the blast gate.
+03:37:36.413 > 43000
+03:38:57.961 > Closing the blast gate.
+03:39:03.393 > Opening the blast gate.
+03:39:03.393 > 43000
+03:39:55.006 > Closing the blast gate.
+03:40:10.478 > Opening the blast gate.
+03:40:10.479 > 43000
+03:41:19.172 > Closing the blast gate.
+03:41:53.530 > Opening the blast gate.
+03:41:53.530 > 43000
+03:42:37.118 > Closing the blast gate.
+03:43:12.681 > Opening the blast gate.
+03:43:12.681 > 43000
+03:43:48.229 > Closing the blast gate.
+03:44:26.606 > Opening the blast gate.
+03:44:26.606 > 43000
+03:44:56.539 > Received MQTT CLOSE command
+03:45:04.366 > Closing the blast gate.
+03:45:36.710 > Opening the blast gate.
+03:45:36.710 > 43000
+03:46:12.455 > Closing the blast gate.
+03:46:56.852 > Opening the blast gate.
+03:46:56.853 > 43000
+03:47:54.482 > Closing the blast gate.
+03:48:23.821 > Opening the blast gate.
+03:48:23.821 > 43000
+03:49:31.514 > Closing the blast gate.
+03:50:00.031 > Opening the blast gate.
+03:50:00.031 > 43000
+03:50:55.670 > Closing the blast gate.
+03:51:01.107 > Opening the blast gate.
+03:51:01.107 > 42848
+03:51:47.694 > Closing the blast gate.
+03:52:23.037 > Opening the blast gate.
+03:52:23.037 > 43000
+03:53:02.811 > Closing the blast gate.
+03:53:24.096 > Opening the blast gate.
+03:53:24.096 > 43000
+03:54:06.882 > Closing the blast gate.
+03:54:40.236 > Opening the blast gate.
+03:54:40.237 > 43000
+03:54:56.495 > Received MQTT OPEN command
+03:56:11.001 > Closing the blast gate.
+03:56:31.293 > Opening the blast gate.
+03:56:31.293 > 43000
+03:57:00.018 > Closing the blast gate.
+03:57:45.423 > Opening the blast gate.
+03:57:45.423 > 43000
+03:58:14.139 > Closing the blast gate.
+03:58:34.435 > Opening the blast gate.
+03:58:34.435 > 43000
+03:59:45.132 > Closing the blast gate.
+04:00:21.499 > Opening the blast gate.
+04:00:21.499 > 43000
+04:01:59.314 > Closing the blast gate.
+04:02:46.723 > Opening the blast gate.
+04:02:46.723 > 43000
+04:03:34.313 > Closing the blast gate.
+04:04:06.665 > Opening the blast gate.
+04:04:06.665 > 43000
+04:04:40.411 > Closing the blast gate.
+04:04:56.488 > Received MQTT CLOSE command
+04:04:59.703 > Opening the blast gate.
+04:04:59.703 > 43000
+04:05:13.363 > Closing the blast gate.
+04:05:51.736 > Opening the blast gate.
+04:05:51.736 > 43000
+04:06:54.409 > Closing the blast gate.
+04:07:34.785 > Opening the blast gate.
+04:07:34.785 > 43000
+04:07:49.445 > Closing the blast gate.
+04:08:34.845 > Opening the blast gate.
+04:08:34.846 > 43000
+04:09:28.669 > Closing the blast gate.
+04:10:09.038 > Opening the blast gate.
+04:10:09.038 > 43000
+04:10:26.694 > Closing the blast gate.
+04:10:32.921 > Opening the blast gate.
+04:10:32.921 > 43000
+04:10:47.584 > Closing the blast gate.
+04:11:36.005 > Opening the blast gate.
+04:11:36.005 > 43000
+04:12:00.706 > Closing the blast gate.
+04:12:40.080 > Opening the blast gate.
+04:12:40.080 > 43000
+04:13:22.656 > Closing the blast gate.
+04:14:07.243 > Opening the blast gate.
+04:14:07.243 > 43000
+04:14:56.455 > Received MQTT OPEN command
+04:15:56.507 > Closing the blast gate.
+04:16:14.191 > Opening the blast gate.
+04:16:14.191 > 43000
+04:16:26.846 > Closing the blast gate.
+04:16:42.318 > Opening the blast gate.
+04:16:42.318 > 43000
+04:18:18.122 > Closing the blast gate.
+04:18:45.449 > Opening the blast gate.
+04:18:45.449 > 43000
+04:19:44.086 > Closing the blast gate.
+04:20:29.469 > Opening the blast gate.
+04:20:29.469 > 43000
+04:21:39.158 > Closing the blast gate.
+04:22:10.693 > Opening the blast gate.
+04:22:10.693 > 43000
+04:23:17.371 > Closing the blast gate.
+04:23:26.821 > Opening the blast gate.
+04:23:26.822 > 43000
+04:23:48.313 > Closing the blast gate.
+04:23:59.773 > Opening the blast gate.
+04:23:59.773 > 43000
+04:24:56.614 > Received MQTT CLOSE command
+04:24:59.424 > Closing the blast gate.
+04:25:12.876 > Opening the blast gate.
+04:25:12.876 > 43000
+04:26:14.533 > Closing the blast gate.
+04:26:23.982 > Opening the blast gate.
+04:26:23.982 > 43000
+04:26:55.515 > Closing the blast gate.
+04:27:08.978 > Opening the blast gate.
+04:27:08.978 > 43000
+04:28:25.688 > Closing the blast gate.
+04:29:14.097 > Opening the blast gate.
+04:29:14.097 > 43000
+04:29:55.674 > Closing the blast gate.
+04:30:20.190 > Opening the blast gate.
+04:30:20.191 > 43000
+04:31:43.933 > Closing the blast gate.
+04:31:54.183 > Opening the blast gate.
+04:31:54.184 > 43000
+04:32:10.843 > Closing the blast gate.
+04:32:57.252 > Opening the blast gate.
+04:32:57.253 > 43000
+04:33:41.836 > Closing the blast gate.
+04:33:47.273 > Opening the blast gate.
+04:33:47.273 > 43000
+04:34:43.897 > Closing the blast gate.
+04:34:56.561 > Received MQTT OPEN command
+04:34:56.765 > Opening the blast gate.
+04:34:56.765 > 43000
+04:35:56.609 > Closing the blast gate.
+04:36:12.487 > Opening the blast gate.
+04:36:12.487 > 43000
+04:36:30.161 > Closing the blast gate.
+04:36:31.376 > Opening the blast gate.
+04:36:31.376 > 43000
+04:36:47.041 > Closing the blast gate.
+04:37:23.413 > Opening the blast gate.
+04:37:23.413 > 43000
+04:38:09.191 > Closing the blast gate.
+04:38:23.451 > Opening the blast gate.
+04:38:23.451 > 43000
+04:39:33.334 > Closing the blast gate.
+04:40:20.751 > Opening the blast gate.
+04:40:20.752 > 43000
+04:41:20.394 > Closing the blast gate.
+04:41:55.737 > Opening the blast gate.
+04:41:55.737 > 43000
+04:42:26.469 > Closing the blast gate.
+04:42:56.798 > Opening the blast gate.
+04:42:56.798 > 43000
+04:44:06.501 > Closing the blast gate.
+04:44:10.919 > Opening the blast gate.
+04:44:10.919 > 43000
+04:44:56.512 > Received MQTT CLOSE command
+04:46:33.693 > Closing the blast gate.
+04:46:34.908 > Opening the blast gate.
+04:46:34.909 > 43000
+04:47:29.546 > Closing the blast gate.
+04:47:51.032 > Opening the blast gate.
+04:47:51.032 > 43000
+04:48:20.764 > Closing the blast gate.
+04:49:09.172 > Opening the blast gate.
+04:49:09.172 > 43000
+04:49:42.713 > Closing the blast gate.
+04:49:50.154 > Opening the blast gate.
+04:49:50.154 > 43000
+04:50:49.802 > Closing the blast gate.
+04:51:00.254 > Opening the blast gate.
+04:51:00.254 > 42848
+04:51:55.879 > Closing the blast gate.
+04:52:16.168 > Opening the blast gate.
+04:52:16.168 > 43000
+04:53:22.838 > Closing the blast gate.
+04:54:04.431 > Opening the blast gate.
+04:54:04.431 > 43000
+04:54:44.988 > Closing the blast gate.
+04:54:56.442 > Received MQTT OPEN command
+04:54:56.646 > Opening the blast gate.
+04:54:56.646 > 43000
+04:56:08.141 > Closing the blast gate.
+04:56:25.416 > Opening the blast gate.
+04:56:25.416 > 43000
+04:56:50.118 > Closing the blast gate.
+04:57:23.465 > Opening the blast gate.
+04:57:23.465 > 43000
+04:57:36.116 > Closing the blast gate.
+04:57:36.528 > Opening the blast gate.
+04:57:36.528 > 43000
+04:58:45.224 > Closing the blast gate.
+04:59:02.699 > Opening the blast gate.
+04:59:02.699 > 43000
+05:00:02.357 > Closing the blast gate.
+05:00:37.723 > Opening the blast gate.
+05:00:37.723 > 43000
+05:01:49.420 > Closing the blast gate.
+05:02:36.823 > Opening the blast gate.
+05:02:36.824 > 43000
+05:02:51.476 > Closing the blast gate.
+05:03:15.789 > Opening the blast gate.
+05:03:15.790 > 43000
+05:03:53.530 > Closing the blast gate.
+05:04:05.797 > Opening the blast gate.
+05:04:05.797 > 43000
+05:04:38.537 > Closing the blast gate.
+05:04:56.421 > Received MQTT CLOSE command
+05:05:11.875 > Opening the blast gate.
+05:05:11.875 > 43000
+05:06:53.517 > Closing the blast gate.
+05:07:40.926 > Opening the blast gate.
+05:07:40.926 > 43000
+05:08:18.690 > Closing the blast gate.
+05:09:03.093 > Opening the blast gate.
+05:09:03.093 > 43000
+05:09:23.765 > Closing the blast gate.
+05:10:06.161 > Opening the blast gate.
+05:10:06.161 > 43000
+05:11:15.832 > Closing the blast gate.
+05:12:00.235 > Opening the blast gate.
+05:12:00.236 > 43000
+05:13:23.983 > Closing the blast gate.
+05:14:01.357 > Opening the blast gate.
+05:14:01.357 > 43000
+05:14:56.595 > Received MQTT OPEN command
+05:16:16.107 > Closing the blast gate.
+05:16:20.532 > Opening the blast gate.
+05:16:20.532 > 43000
+05:17:04.121 > Closing the blast gate.
+05:17:32.447 > Opening the blast gate.
+05:17:32.447 > 43000
+05:18:06.194 > Closing the blast gate.
+05:18:19.648 > Opening the blast gate.
+05:18:19.648 > 43000
+05:19:01.228 > Closing the blast gate.
+05:19:14.695 > Opening the blast gate.
+05:19:14.696 > 43000
+05:20:23.377 > Closing the blast gate.
+05:20:27.806 > Opening the blast gate.
+05:20:27.806 > 43000
+05:21:00.349 > Closing the blast gate.
+05:21:35.709 > Opening the blast gate.
+05:21:35.709 > 43000
+05:22:30.531 > Closing the blast gate.
+05:23:04.885 > Opening the blast gate.
+05:23:04.885 > 43000
+05:23:48.650 > Closing the blast gate.
+05:24:05.940 > Opening the blast gate.
+05:24:05.940 > 43000
+05:24:19.593 > Closing the blast gate.
+05:24:52.950 > Opening the blast gate.
+05:24:52.950 > 43000
+05:24:56.566 > Received MQTT CLOSE command
+05:25:24.668 > Closing the blast gate.
+05:25:35.120 > Opening the blast gate.
+05:25:35.120 > 43000
+05:26:34.764 > Closing the blast gate.
+05:27:15.152 > Opening the blast gate.
+05:27:15.152 > 43000
+05:28:24.829 > Closing the blast gate.
+05:28:52.158 > Opening the blast gate.
+05:28:52.158 > 43000
+05:30:01.847 > Closing the blast gate.
+05:30:30.374 > Opening the blast gate.
+05:30:30.374 > 43000
+05:31:18.983 > Closing the blast gate.
+05:31:38.470 > Opening the blast gate.
+05:31:38.471 > 43000
+05:32:12.009 > Closing the blast gate.
+05:32:56.402 > Opening the blast gate.
+05:32:56.402 > 43000
+05:33:52.245 > Closing the blast gate.
+05:34:13.534 > Opening the blast gate.
+05:34:13.534 > 43000
+05:34:36.229 > Closing the blast gate.
+05:34:56.524 > Received MQTT OPEN command
+05:34:56.728 > Opening the blast gate.
+05:34:56.729 > 43000
+05:35:56.584 > Closing the blast gate.
+05:36:19.691 > Opening the blast gate.
+05:36:19.691 > 43000
+05:36:49.420 > Closing the blast gate.
+05:37:26.780 > Opening the blast gate.
+05:37:26.780 > 43000
+05:38:34.471 > Closing the blast gate.
+05:39:09.823 > Opening the blast gate.
+05:39:09.823 > 43000
+05:39:26.490 > Closing the blast gate.
+05:40:10.887 > Opening the blast gate.
+05:40:10.888 > 43000
+05:40:56.472 > Closing the blast gate.
+05:41:41.881 > Opening the blast gate.
+05:41:41.882 > 43000
+05:42:33.699 > Closing the blast gate.
+05:43:04.040 > Opening the blast gate.
+05:43:04.040 > 43000
+05:43:37.781 > Closing the blast gate.
+05:44:20.177 > Opening the blast gate.
+05:44:20.177 > 43000
+05:44:56.537 > Received MQTT CLOSE command
+05:45:26.850 > Closing the blast gate.
+05:45:48.139 > Opening the blast gate.
+05:45:48.139 > 43000
+05:46:55.819 > Closing the blast gate.
+05:47:14.301 > Opening the blast gate.
+05:47:14.301 > 43000
+05:48:18.966 > Closing the blast gate.
+05:48:26.403 > Opening the blast gate.
+05:48:26.404 > 43000
+05:50:16.064 > Closing the blast gate.
+05:50:45.400 > Opening the blast gate.
+05:50:45.401 > 42848
+05:51:09.104 > Closing the blast gate.
+05:51:57.523 > Opening the blast gate.
+05:51:57.523 > 43000
+05:52:17.208 > Closing the blast gate.
+05:52:54.579 > Opening the blast gate.
+05:52:54.579 > 43000
+05:53:50.217 > Closing the blast gate.
+05:54:06.701 > Opening the blast gate.
+05:54:06.701 > 43000
+05:54:23.370 > Closing the blast gate.
+05:54:56.522 > Received MQTT OPEN command
+05:54:56.727 > Opening the blast gate.
+05:54:56.727 > 43000
+05:56:05.415 > Closing the blast gate.
+05:56:24.695 > Opening the blast gate.
+05:56:24.695 > 43000
+05:56:49.398 > Closing the blast gate.
+05:57:05.868 > Opening the blast gate.
+05:57:05.868 > 43008
+05:58:11.548 > Closing the blast gate.
+05:58:21.797 > Opening the blast gate.
+05:58:21.797 > 43000
+05:59:22.658 > Closing the blast gate.
+05:59:57.014 > Opening the blast gate.
+05:59:57.014 > 43000
+06:00:25.524 > Closing the blast gate.
+06:00:50.037 > Opening the blast gate.
+06:00:50.037 > 43000
+06:01:56.722 > Closing the blast gate.
+06:02:19.023 > Opening the blast gate.
+06:02:19.023 > 43000
+06:04:15.894 > Closing the blast gate.
+06:04:51.255 > Opening the blast gate.
+06:04:51.255 > 43000
+06:04:56.682 > Received MQTT CLOSE command
+06:06:33.067 > Closing the blast gate.
+06:07:18.471 > Opening the blast gate.
+06:07:18.472 > 43000
+06:08:18.124 > Closing the blast gate.
+06:08:33.388 > Opening the blast gate.
+06:08:33.388 > 43000
+06:09:30.223 > Closing the blast gate.
+06:09:54.526 > Opening the blast gate.
+06:09:54.526 > 43000
+06:10:31.283 > Closing the blast gate.
+06:11:02.631 > Opening the blast gate.
+06:11:02.632 > 43000
+06:11:41.194 > Closing the blast gate.
+06:11:44.619 > Opening the blast gate.
+06:11:44.619 > 43000
+06:12:23.374 > Closing the blast gate.
+06:12:55.722 > Opening the blast gate.
+06:12:55.722 > 43000
+06:13:59.402 > Closing the blast gate.
+06:14:09.856 > Opening the blast gate.
+06:14:09.856 > 43000
+06:14:56.660 > Received MQTT OPEN command
+06:15:56.696 > Closing the blast gate.
+06:15:58.916 > Opening the blast gate.
+06:15:58.917 > 43000
+06:16:25.630 > Closing the blast gate.
+06:16:45.927 > Opening the blast gate.
+06:16:45.928 > 43000
+06:17:37.535 > Closing the blast gate.
+06:18:16.106 > Opening the blast gate.
+06:18:16.106 > 43000
+06:18:58.692 > Closing the blast gate.
+06:19:21.189 > Opening the blast gate.
+06:19:21.189 > 43000
+06:20:03.775 > Closing the blast gate.
+06:20:48.163 > Opening the blast gate.
+06:20:48.163 > 43000
+06:21:25.910 > Closing the blast gate.
+06:22:10.295 > Opening the blast gate.
+06:22:10.296 > 43000
+06:22:58.891 > Closing the blast gate.
+06:23:21.399 > Opening the blast gate.
+06:23:21.399 > 43000
+06:24:19.033 > Closing the blast gate.
+06:24:23.462 > Opening the blast gate.
+06:24:23.462 > 43000
+06:24:56.607 > Received MQTT CLOSE command
+06:25:12.069 > Closing the blast gate.
+06:25:51.450 > Opening the blast gate.
+06:25:51.450 > 43000
+06:26:40.059 > Closing the blast gate.
+06:26:46.497 > Opening the blast gate.
+06:26:46.497 > 43000
+06:28:24.283 > Closing the blast gate.
+06:28:49.603 > Opening the blast gate.
+06:28:49.603 > 43000
+06:29:43.223 > Closing the blast gate.
+06:29:52.673 > Opening the blast gate.
+06:29:52.674 > 43000
+06:30:33.449 > Closing the blast gate.
+06:31:05.787 > Opening the blast gate.
+06:31:05.787 > 43000
+06:31:46.347 > Closing the blast gate.
+06:31:57.798 > Opening the blast gate.
+06:31:57.798 > 43000
+06:32:59.455 > Closing the blast gate.
+06:33:24.972 > Opening the blast gate.
+06:33:24.972 > 43000
+06:34:33.671 > Closing the blast gate.
+06:34:37.897 > Opening the blast gate.
+06:34:37.898 > 43000
+06:34:56.579 > Received MQTT OPEN command
+06:35:56.615 > Closing the blast gate.
+06:36:03.054 > Opening the blast gate.
+06:36:03.054 > 43000
+06:36:58.682 > Closing the blast gate.
+06:37:43.083 > Opening the blast gate.
+06:37:43.084 > 43000
+06:38:32.883 > Closing the blast gate.
+06:39:01.203 > Opening the blast gate.
+06:39:01.204 > 43000
+06:40:08.894 > Closing the blast gate.
+06:40:54.286 > Opening the blast gate.
+06:40:54.286 > 43000
+06:42:29.088 > Closing the blast gate.
+06:42:52.384 > Opening the blast gate.
+06:42:52.384 > 43000
+06:43:47.199 > Closing the blast gate.
+06:44:19.540 > Opening the blast gate.
+06:44:19.540 > 43000
+06:44:56.482 > Received MQTT CLOSE command
+06:45:11.131 > Closing the blast gate.
+06:45:43.675 > Opening the blast gate.
+06:45:43.675 > 43000
+06:47:16.247 > Closing the blast gate.
+06:48:04.666 > Opening the blast gate.
+06:48:04.666 > 43000
+06:51:08.449 > Closing the blast gate.
+06:51:46.824 > Opening the blast gate.
+06:51:46.824 > 43000
+06:52:08.503 > Closing the blast gate.
+06:52:42.057 > Opening the blast gate.
+06:52:42.057 > 43000
+06:53:26.625 > Closing the blast gate.
+06:53:55.950 > Opening the blast gate.
+06:53:55.950 > 43000
+06:54:46.772 > Closing the blast gate.
+06:54:56.420 > Received MQTT OPEN command
+06:54:56.624 > Opening the blast gate.
+06:54:56.624 > 43000
+06:57:15.798 > Closing the blast gate.
+06:57:17.216 > Opening the blast gate.
+06:57:17.216 > 43000
+06:58:02.809 > Closing the blast gate.
+06:58:22.303 > Opening the blast gate.
+06:58:22.303 > 43000
+06:58:40.983 > Closing the blast gate.
+06:59:15.320 > Opening the blast gate.
+06:59:15.320 > 43000
+06:59:46.041 > Closing the blast gate.
+07:00:03.313 > Opening the blast gate.
+07:00:03.313 > 43000
+07:01:13.003 > Closing the blast gate.
+07:01:36.515 > Opening the blast gate.
+07:01:36.515 > 43000
+07:01:49.163 > Closing the blast gate.
+07:01:54.385 > Opening the blast gate.
+07:01:54.385 > 43000
+07:02:10.057 > Closing the blast gate.
+07:02:33.566 > Opening the blast gate.
+07:02:33.566 > 43000
+07:03:31.203 > Closing the blast gate.
+07:04:14.589 > Opening the blast gate.
+07:04:14.590 > 43000
+07:04:56.567 > Received MQTT CLOSE command
+07:05:39.328 > Closing the blast gate.
+07:06:01.637 > Opening the blast gate.
+07:06:01.637 > 43000
+07:06:44.417 > Closing the blast gate.
+07:07:31.817 > Opening the blast gate.
+07:07:31.817 > 43000
+07:08:37.501 > Closing the blast gate.
+07:09:24.907 > Opening the blast gate.
+07:09:24.907 > 43000
+07:09:43.570 > Closing the blast gate.
+07:10:29.979 > Opening the blast gate.
+07:10:29.979 > 43000
+07:10:50.666 > Closing the blast gate.
+07:11:26.033 > Opening the blast gate.
+07:11:26.033 > 43000
+07:12:44.774 > Closing the blast gate.
+07:13:17.109 > Opening the blast gate.
+07:13:17.109 > 43000
+07:14:02.709 > Closing the blast gate.
+07:14:07.134 > Opening the blast gate.
+07:14:07.134 > 43000
+07:14:34.855 > Closing the blast gate.
+07:14:56.556 > Received MQTT OPEN command
+07:14:56.760 > Opening the blast gate.
+07:14:56.760 > 43000
+07:16:33.966 > Closing the blast gate.
+07:17:09.326 > Opening the blast gate.
+07:17:09.326 > 43000
+07:17:24.992 > Closing the blast gate.
+07:17:53.323 > Opening the blast gate.
+07:17:53.323 > 43000
+07:18:24.037 > Closing the blast gate.
+07:18:51.366 > Opening the blast gate.
+07:18:51.366 > 43000
+07:19:23.093 > Closing the blast gate.
+07:19:30.532 > Opening the blast gate.
+07:19:30.532 > 43000
+07:20:03.080 > Closing the blast gate.
+07:20:18.550 > Opening the blast gate.
+07:20:18.550 > 43000
+07:21:08.166 > Closing the blast gate.
+07:21:24.632 > Opening the blast gate.
+07:21:24.632 > 43000
+07:22:11.235 > Closing the blast gate.
+07:22:26.707 > Opening the blast gate.
+07:22:26.707 > 43000
+07:22:52.215 > Closing the blast gate.
+07:22:55.638 > Opening the blast gate.
+07:22:55.639 > 43000
+07:23:56.298 > Closing the blast gate.
+07:24:31.865 > Opening the blast gate.
+07:24:31.865 > 43000
+07:24:56.557 > Received MQTT CLOSE command
+07:25:04.387 > Closing the blast gate.
+07:25:29.906 > Opening the blast gate.
+07:25:29.906 > 43000
+07:26:28.560 > Closing the blast gate.
+07:27:08.935 > Opening the blast gate.
+07:27:08.936 > 43000
+07:28:11.582 > Closing the blast gate.
+07:28:16.004 > Opening the blast gate.
+07:28:16.005 > 43000
+07:29:38.761 > Closing the blast gate.
+07:30:08.089 > Opening the blast gate.
+07:30:08.089 > 43000
+07:30:40.823 > Closing the blast gate.
+07:31:14.172 > Opening the blast gate.
+07:31:14.172 > 43000
+07:32:11.824 > Closing the blast gate.
+07:32:12.236 > Opening the blast gate.
+07:32:12.236 > 43000
+07:33:01.850 > Closing the blast gate.
+07:33:19.334 > Opening the blast gate.
+07:33:19.334 > 43000
+07:33:59.903 > Closing the blast gate.
+07:34:08.349 > Opening the blast gate.
+07:34:08.349 > 43000
+07:34:49.927 > Closing the blast gate.
+07:34:56.564 > Received MQTT OPEN command
+07:34:56.768 > Opening the blast gate.
+07:34:56.769 > 43000
+07:36:21.113 > Closing the blast gate.
+07:37:06.522 > Opening the blast gate.
+07:37:06.522 > 43000
+07:37:23.181 > Closing the blast gate.
+07:37:40.463 > Opening the blast gate.
+07:37:40.463 > 43000
+07:38:41.312 > Closing the blast gate.
+07:38:53.568 > Opening the blast gate.
+07:38:53.568 > 43000
+07:39:34.327 > Closing the blast gate.
+07:39:50.608 > Opening the blast gate.
+07:39:50.608 > 43000
+07:40:51.267 > Closing the blast gate.
+07:41:17.774 > Opening the blast gate.
+07:41:17.774 > 43000
+07:41:36.454 > Closing the blast gate.
+07:42:06.799 > Opening the blast gate.
+07:42:06.799 > 43000
+07:42:34.516 > Closing the blast gate.
+07:43:04.860 > Opening the blast gate.
+07:43:04.860 > 43000
+07:44:00.484 > Closing the blast gate.
+07:44:18.974 > Opening the blast gate.
+07:44:18.974 > 43000
+07:44:56.530 > Received MQTT CLOSE command
+07:45:27.659 > Closing the blast gate.
+07:45:48.948 > Opening the blast gate.
+07:45:48.948 > 43000
+07:46:07.624 > Closing the blast gate.
+07:46:13.046 > Opening the blast gate.
+07:46:13.046 > 43000
+07:47:13.692 > Closing the blast gate.
+07:47:20.125 > Opening the blast gate.
+07:47:20.126 > 43000
+07:48:12.749 > Closing the blast gate.
+07:48:34.252 > Opening the blast gate.
+07:48:34.252 > 43000
+07:49:43.936 > Closing the blast gate.
+07:49:54.189 > Opening the blast gate.
+07:49:54.190 > 43000
+07:50:58.874 > Closing the blast gate.
+07:51:20.378 > Opening the blast gate.
+07:51:20.378 > 43000
+07:51:52.912 > Closing the blast gate.
+07:52:35.508 > Opening the blast gate.
+07:52:35.508 > 43000
+07:53:42.181 > Closing the blast gate.
+07:54:11.507 > Opening the blast gate.
+07:54:11.508 > 43000
+07:54:28.165 > Closing the blast gate.
+07:54:56.688 > Received MQTT OPEN command
+07:54:56.892 > Opening the blast gate.
+07:54:56.892 > 43000
+07:56:13.202 > Closing the blast gate.
+07:56:28.678 > Opening the blast gate.
+07:56:28.678 > 43000
+07:57:09.249 > Closing the blast gate.
+07:57:25.716 > Opening the blast gate.
+07:57:25.716 > 43000
+07:58:07.477 > Closing the blast gate.
+07:58:50.864 > Opening the blast gate.
+07:58:50.864 > 43000
+07:59:59.562 > Closing the blast gate.
+08:00:12.830 > Opening the blast gate.
+08:00:12.830 > 43000
+08:01:09.677 > Closing the blast gate.
+08:01:31.981 > Opening the blast gate.
+08:01:31.981 > 43000
+08:02:17.565 > Closing the blast gate.
+08:02:52.121 > Opening the blast gate.
+08:02:52.121 > 43000
+08:03:35.704 > Closing the blast gate.
+08:03:39.128 > Opening the blast gate.
+08:03:39.128 > 43000
+08:04:28.744 > Closing the blast gate.
+08:04:50.229 > Opening the blast gate.
+08:04:50.229 > 43000
+08:04:56.661 > Received MQTT CLOSE command
+08:05:06.900 > Closing the blast gate.
+08:05:32.218 > Opening the blast gate.
+08:05:32.218 > 43000
+08:06:41.903 > Closing the blast gate.
+08:06:53.361 > Opening the blast gate.
+08:06:53.361 > 43000
+08:07:54.026 > Closing the blast gate.
+08:08:19.344 > Opening the blast gate.
+08:08:19.344 > 43000
+08:09:47.117 > Closing the blast gate.
+08:10:07.405 > Opening the blast gate.
+08:10:07.405 > 43000
+08:10:49.181 > Closing the blast gate.
+08:11:00.445 > Opening the blast gate.
+08:11:00.445 > 43000
+08:11:37.202 > Closing the blast gate.
+08:11:58.506 > Opening the blast gate.
+08:11:58.506 > 42920
+08:12:36.267 > Closing the blast gate.
+08:12:36.678 > Opening the blast gate.
+08:12:36.679 > 43000
+08:13:39.337 > Closing the blast gate.
+08:14:17.701 > Opening the blast gate.
+08:14:17.701 > 43000
+08:14:56.670 > Received MQTT OPEN command
+08:16:22.426 > Closing the blast gate.
+08:16:58.792 > Opening the blast gate.
+08:16:58.792 > 43000
+08:17:26.509 > Closing the blast gate.
+08:17:45.802 > Opening the blast gate.
+08:17:45.802 > 43000
+08:18:13.511 > Closing the blast gate.
+08:18:48.872 > Opening the blast gate.
+08:18:48.872 > 43000
+08:19:34.657 > Closing the blast gate.
+08:19:48.917 > Opening the blast gate.
+08:19:48.918 > 43000
+08:20:16.637 > Closing the blast gate.
+08:20:55.997 > Opening the blast gate.
+08:20:55.997 > 43000
+08:21:50.825 > Closing the blast gate.
+08:21:51.036 > Opening the blast gate.
+08:21:51.037 > 43000
+08:22:16.733 > Closing the blast gate.
+08:22:44.260 > Opening the blast gate.
+08:22:44.260 > 43000
+08:23:37.879 > Closing the blast gate.
+08:24:14.249 > Opening the blast gate.
+08:24:14.249 > 43000
+08:24:56.622 > Received MQTT CLOSE command
+08:25:00.835 > Closing the blast gate.
+08:25:04.251 > Opening the blast gate.
+08:25:04.252 > 43000
+08:26:49.078 > Closing the blast gate.
+08:26:54.312 > Opening the blast gate.
+08:26:54.312 > 43000
+08:27:08.977 > Closing the blast gate.
+08:27:37.310 > Opening the blast gate.
+08:27:37.310 > 43000
+08:28:20.099 > Closing the blast gate.
+08:29:02.499 > Opening the blast gate.
+08:29:02.499 > 43000
+08:30:47.135 > Closing the blast gate.
+08:31:24.709 > Opening the blast gate.
+08:31:24.710 > 43000
+08:32:20.349 > Closing the blast gate.
+08:32:25.578 > Opening the blast gate.
+08:32:25.578 > 43000
+08:33:28.445 > Closing the blast gate.
+08:34:13.651 > Opening the blast gate.
+08:34:13.651 > 43000
+08:34:56.625 > Received MQTT OPEN command
+08:35:59.492 > Closing the blast gate.
+08:36:33.846 > Opening the blast gate.
+08:36:33.846 > 43000
+08:37:30.485 > Closing the blast gate.
+08:37:41.940 > Opening the blast gate.
+08:37:41.940 > 43000
+08:38:52.631 > Closing the blast gate.
+08:38:56.054 > Opening the blast gate.
+08:38:56.055 > 43000
+08:39:40.628 > Closing the blast gate.
+08:40:00.126 > Opening the blast gate.
+08:40:00.126 > 43000
+08:41:03.802 > Closing the blast gate.
+08:41:37.137 > Opening the blast gate.
+08:41:37.137 > 43000
+08:42:40.801 > Closing the blast gate.
+08:42:50.250 > Opening the blast gate.
+08:42:50.250 > 43000
+08:43:14.961 > Closing the blast gate.
+08:44:00.366 > Opening the blast gate.
+08:44:00.366 > 43000
+08:44:56.610 > Received MQTT CLOSE command
+08:45:00.025 > Closing the blast gate.
+08:45:40.388 > Opening the blast gate.
+08:45:40.388 > 43000
+08:46:36.028 > Closing the blast gate.
+08:47:13.398 > Opening the blast gate.
+08:47:13.398 > 43000
+08:48:23.085 > Closing the blast gate.
+08:49:05.683 > Opening the blast gate.
+08:49:05.683 > 43000
+08:50:59.337 > Closing the blast gate.
+08:51:27.666 > Opening the blast gate.
+08:51:27.666 > 43000
+08:51:47.351 > Closing the blast gate.
+08:52:11.858 > Opening the blast gate.
+08:52:11.858 > 43000
+08:52:57.453 > Closing the blast gate.
+08:53:16.737 > Opening the blast gate.
+08:53:16.737 > 43000
+08:54:14.577 > Closing the blast gate.
+08:54:20.815 > Opening the blast gate.
+08:54:20.815 > 43000
+08:54:56.567 > Received MQTT OPEN command
+08:56:35.563 > Closing the blast gate.
+08:56:59.061 > Opening the blast gate.
+08:56:59.061 > 43000
+08:57:29.591 > Closing the blast gate.
+08:57:47.071 > Opening the blast gate.
+08:57:47.072 > 43000
+08:59:49.794 > Closing the blast gate.
+09:00:06.277 > Opening the blast gate.
+09:00:06.277 > 43000
+09:00:38.815 > Closing the blast gate.
+09:00:39.227 > Opening the blast gate.
+09:00:39.227 > 43000
+09:01:15.974 > Closing the blast gate.
+09:01:59.364 > Opening the blast gate.
+09:01:59.364 > 43000
+09:02:59.022 > Closing the blast gate.
+09:03:39.406 > Opening the blast gate.
+09:03:39.406 > 43000
+09:04:56.531 > Received MQTT CLOSE command
+09:04:58.138 > Closing the blast gate.
+09:05:45.535 > Opening the blast gate.
+09:05:45.536 > 43000
+09:06:20.272 > Closing the blast gate.
+09:06:36.538 > Opening the blast gate.
+09:06:36.539 > 43000
+09:07:17.316 > Closing the blast gate.
+09:07:17.725 > Opening the blast gate.
+09:07:17.725 > 43000
+09:07:36.205 > Closing the blast gate.
+09:07:53.688 > Opening the blast gate.
+09:07:53.689 > 43000
+09:08:38.284 > Closing the blast gate.
+09:09:17.665 > Opening the blast gate.
+09:09:17.666 > 43000
+09:09:50.403 > Closing the blast gate.
+09:10:36.801 > Opening the blast gate.
+09:10:36.802 > 43000
+09:10:54.477 > Closing the blast gate.
+09:11:23.815 > Opening the blast gate.
+09:11:23.816 > 43000
+09:13:34.554 > Closing the blast gate.
+09:14:15.943 > Opening the blast gate.
+09:14:15.943 > 43000
+09:14:56.722 > Received MQTT OPEN command
+09:17:32.744 > Closing the blast gate.
+09:18:00.277 > Opening the blast gate.
+09:18:00.277 > 43000
+09:19:33.867 > Closing the blast gate.
+09:19:57.372 > Opening the blast gate.
+09:19:57.372 > 43000
+09:21:06.069 > Closing the blast gate.
+09:21:08.490 > Opening the blast gate.
+09:21:08.491 > 43000
+09:21:32.989 > Closing the blast gate.
+09:22:15.575 > Opening the blast gate.
+09:22:15.576 > 43000
+09:22:38.076 > Closing the blast gate.
+09:23:20.457 > Opening the blast gate.
+09:23:20.457 > 43000
+09:24:56.658 > Received MQTT CLOSE command
+09:26:14.380 > Closing the blast gate.
+09:26:40.702 > Opening the blast gate.
+09:26:40.702 > 43000
+09:27:11.432 > Closing the blast gate.
+09:27:13.853 > Opening the blast gate.
+09:27:13.853 > 43000
+09:27:47.395 > Closing the blast gate.
+09:28:15.920 > Opening the blast gate.
+09:28:15.920 > 43000
+09:28:33.580 > Closing the blast gate.
+09:28:49.852 > Opening the blast gate.
+09:28:49.852 > 43000
+09:29:59.544 > Closing the blast gate.
+09:30:32.896 > Opening the blast gate.
+09:30:32.896 > 43000
+09:31:19.672 > Closing the blast gate.
+09:31:23.100 > Opening the blast gate.
+09:31:23.100 > 43000
+09:31:48.610 > Closing the blast gate.
+09:32:22.154 > Opening the blast gate.
+09:32:22.154 > 43000
+09:32:39.814 > Closing the blast gate.
+09:33:26.220 > Opening the blast gate.
+09:33:26.220 > 43000
+09:34:17.829 > Closing the blast gate.
+09:34:18.240 > Opening the blast gate.
+09:34:18.240 > 43000
+09:34:56.609 > Received MQTT OPEN command
+09:35:59.877 > Closing the blast gate.
+09:36:07.317 > Opening the blast gate.
+09:36:07.317 > 43000
+09:37:11.983 > Closing the blast gate.
+09:37:54.361 > Opening the blast gate.
+09:37:54.362 > 43000
+09:38:23.087 > Closing the blast gate.
+09:38:51.404 > Opening the blast gate.
+09:38:51.404 > 43000
+09:39:05.055 > Closing the blast gate.
+09:39:37.394 > Opening the blast gate.
+09:39:37.394 > 43000
+09:40:20.176 > Closing the blast gate.
+09:40:26.614 > Opening the blast gate.
+09:40:26.614 > 43000
+09:40:40.054 > Closing the blast gate.
+09:41:22.637 > Opening the blast gate.
+09:41:22.637 > 43000
+09:42:07.233 > Closing the blast gate.
+09:42:09.645 > Opening the blast gate.
+09:42:09.646 > 43000
+09:42:51.213 > Closing the blast gate.
+09:43:07.682 > Opening the blast gate.
+09:43:07.682 > 43000
+09:43:57.294 > Closing the blast gate.
+09:44:29.830 > Opening the blast gate.
+09:44:29.830 > 43000
+09:44:56.749 > Received MQTT CLOSE command
+09:45:09.386 > Closing the blast gate.
+09:45:37.911 > Opening the blast gate.
+09:45:37.911 > 43000
+09:46:48.393 > Closing the blast gate.
+09:47:29.777 > Opening the blast gate.
+09:47:29.777 > 43000
+09:48:13.551 > Closing the blast gate.
+09:48:25.009 > Opening the blast gate.
+09:48:25.009 > 43000
+09:48:47.504 > Closing the blast gate.
+09:48:55.945 > Opening the blast gate.
+09:48:55.945 > 43000
+09:49:52.585 > Closing the blast gate.
+09:50:00.028 > Opening the blast gate.
+09:50:00.028 > 43000
+09:50:39.583 > Closing the blast gate.
+09:51:20.151 > Opening the blast gate.
+09:51:20.151 > 43000
+09:52:04.744 > Closing the blast gate.
+09:52:50.149 > Opening the blast gate.
+09:52:50.149 > 43000
+09:53:41.761 > Closing the blast gate.
+09:54:19.319 > Opening the blast gate.
+09:54:19.319 > 43000
+09:54:56.682 > Received MQTT OPEN command
+09:56:23.046 > Closing the blast gate.
+09:56:43.344 > Opening the blast gate.
+09:56:43.344 > 43000
+09:58:48.050 > Closing the blast gate.
+09:58:54.489 > Opening the blast gate.
+09:58:54.489 > 43000
+09:59:57.134 > Closing the blast gate.
+10:00:33.694 > Opening the blast gate.
+10:00:33.694 > 43000
+10:01:26.300 > Closing the blast gate.
+10:02:03.694 > Opening the blast gate.
+10:02:03.694 > 44616
+10:02:39.441 > Closing the blast gate.
+10:03:08.677 > Opening the blast gate.
+10:03:08.677 > 44960
+10:04:01.506 > Closing the blast gate.
+10:04:20.802 > Opening the blast gate.
+10:04:20.802 > 44960
+10:05:54.528 > Closing the blast gate.
+10:06:40.858 > Opening the blast gate.
+10:06:40.858 > 45576
+10:07:43.705 > Closing the blast gate.
+10:07:52.959 > Opening the blast gate.
+10:07:52.959 > 44960
+10:08:30.835 > Closing the blast gate.
+10:09:11.010 > Opening the blast gate.
+10:09:11.010 > 44960
+10:09:25.663 > Closing the blast gate.
+10:10:05.065 > Opening the blast gate.
+10:10:05.065 > 44960
+10:10:30.076 > Closing the blast gate.
+10:10:40.138 > Opening the blast gate.
+10:10:40.138 > 45072
+10:11:17.898 > Closing the blast gate.
+10:12:01.318 > Opening the blast gate.
+10:12:01.318 > 44960
+10:12:53.052 > Closing the blast gate.
+10:13:21.395 > Opening the blast gate.
+10:13:21.395 > 44960
+10:13:53.943 > Closing the blast gate.
+10:14:35.439 > Opening the blast gate.
+10:14:35.440 > 45072
+10:16:27.225 > Closing the blast gate.
+10:17:08.619 > Opening the blast gate.
+10:17:08.619 > 44960
+10:19:15.288 > Closing the blast gate.
+10:19:31.758 > Opening the blast gate.
+10:19:31.759 > 44960
+10:19:59.389 > Closing the blast gate.
+10:20:44.811 > Opening the blast gate.
+10:20:44.811 > 45072
+10:21:14.345 > Closing the blast gate.
+10:21:18.768 > Opening the blast gate.
+10:21:18.768 > 44960
+10:23:09.608 > Closing the blast gate.
+10:23:14.835 > Opening the blast gate.
+10:23:14.835 > 44960
+10:23:56.525 > Closing the blast gate.
+10:24:26.869 > Opening the blast gate.
+10:24:26.869 > 45072
+10:25:16.818 > Closing the blast gate.
+10:25:42.131 > Opening the blast gate.
+10:25:42.131 > 45072
+10:26:06.635 > Closing the blast gate.
+10:26:11.059 > Opening the blast gate.
+10:26:11.059 > 45072
+10:26:37.785 > Closing the blast gate.
+10:27:26.111 > Opening the blast gate.
+10:27:26.111 > 44960
+10:28:00.872 > Closing the blast gate.
+10:28:31.220 > Opening the blast gate.
+10:28:31.220 > 44960
+10:29:29.985 > Closing the blast gate.
+10:29:32.203 > Opening the blast gate.
+10:29:32.203 > 44960
+10:30:12.981 > Closing the blast gate.
+10:30:22.221 > Opening the blast gate.
+10:30:22.221 > 44960
+10:31:28.021 > Closing the blast gate.
+10:31:58.380 > Opening the blast gate.
+10:31:58.380 > 44960
+10:32:33.957 > Closing the blast gate.
+10:32:51.341 > Opening the blast gate.
+10:32:51.341 > 45072
+10:34:26.175 > Closing the blast gate.
+10:34:27.584 > Opening the blast gate.
+10:34:27.584 > 45960
+10:35:20.113 > Closing the blast gate.
+10:35:48.657 > Opening the blast gate.
+10:35:48.657 > 44960
+10:36:12.160 > Closing the blast gate.
+10:36:30.559 > Opening the blast gate.
+10:36:30.559 > 45576
+10:36:48.238 > Closing the blast gate.
+10:36:58.694 > Opening the blast gate.
+10:36:58.695 > 45072
+10:37:25.204 > Closing the blast gate.
+10:37:52.735 > Opening the blast gate.
+10:37:52.735 > 44960
+10:38:11.424 > Closing the blast gate.
+10:38:17.771 > Opening the blast gate.
+10:38:17.771 > 45576
+10:38:54.331 > Closing the blast gate.
+10:39:23.679 > Opening the blast gate.
+10:39:23.679 > 44960
+10:40:28.486 > Closing the blast gate.
+10:40:58.824 > Opening the blast gate.
+10:40:58.825 > 45072
+10:41:51.469 > Closing the blast gate.
+10:42:06.854 > Opening the blast gate.
+10:42:06.854 > 45072
+10:42:45.640 > Closing the blast gate.
+10:43:02.912 > Opening the blast gate.
+10:43:02.912 > 45072
+10:43:35.658 > Closing the blast gate.
+10:43:42.894 > Opening the blast gate.
+10:43:42.894 > 44960
+10:44:28.612 > Closing the blast gate.
+10:44:35.057 > Opening the blast gate.
+10:44:35.057 > 45072
+10:45:07.602 > Closing the blast gate.
+10:45:36.003 > Opening the blast gate.
+10:45:36.003 > 45960
+10:46:04.632 > Closing the blast gate.
+10:46:28.151 > Opening the blast gate.
+10:46:28.151 > 45072
+10:46:41.816 > Closing the blast gate.
+10:47:24.218 > Opening the blast gate.
+10:47:24.219 > 44960
+10:47:39.991 > Closing the blast gate.
+10:48:24.212 > Opening the blast gate.
+10:48:24.212 > 45072
+10:48:58.947 > Closing the blast gate.
+10:49:14.269 > Opening the blast gate.
+10:49:14.269 > 44960
+10:50:21.072 > Closing the blast gate.
+10:50:38.347 > Opening the blast gate.
+10:50:38.347 > 44808
+10:51:43.137 > Closing the blast gate.
+10:52:15.485 > Opening the blast gate.
+10:52:15.486 > 45072
+10:52:35.163 > Closing the blast gate.
+10:52:54.457 > Opening the blast gate.
+10:52:54.458 > 45072
+10:53:42.176 > Closing the blast gate.
+10:54:17.544 > Opening the blast gate.
+10:54:17.544 > 44960
+10:55:16.298 > Closing the blast gate.
+10:55:32.567 > Opening the blast gate.
+10:55:32.567 > 44960
+10:56:13.350 > Closing the blast gate.
+10:56:39.688 > Opening the blast gate.
+10:56:39.688 > 44960
+10:57:44.489 > Closing the blast gate.
+10:58:28.887 > Opening the blast gate.
+10:58:28.887 > 44960
+10:59:02.548 > Closing the blast gate.
+10:59:34.914 > Opening the blast gate.
+10:59:34.914 > 44960
+11:00:24.524 > Closing the blast gate.
+11:01:12.052 > Opening the blast gate.
+11:01:12.052 > 44960
+11:01:35.620 > Closing the blast gate.
+11:02:03.956 > Opening the blast gate.
+11:02:03.956 > 44960
+11:02:21.641 > Closing the blast gate.
+11:02:22.048 > Opening the blast gate.
+11:02:22.048 > 45960
+11:02:57.703 > Closing the blast gate.
+11:03:16.999 > Opening the blast gate.
+11:03:16.999 > 44960
+11:03:32.669 > Closing the blast gate.
+11:04:05.225 > Opening the blast gate.
+11:04:05.225 > 44960
+11:04:26.421 > Closing the blast gate.
+11:05:07.218 > Opening the blast gate.
+11:05:07.218 > 44960
+11:06:13.034 > Closing the blast gate.
+11:06:18.254 > Opening the blast gate.
+11:06:18.254 > 45072
+11:07:19.967 > Closing the blast gate.
+11:07:20.374 > Opening the blast gate.
+11:07:20.375 > 44960
+11:08:22.957 > Closing the blast gate.
+11:08:44.241 > Opening the blast gate.
+11:08:44.241 > 45072
+11:10:02.089 > Closing the blast gate.
+11:10:24.413 > Opening the blast gate.
+11:10:24.413 > 45072
+11:11:51.294 > Closing the blast gate.
+11:12:38.564 > Opening the blast gate.
+11:12:38.564 > 45072
+11:12:58.245 > Closing the blast gate.
+11:13:31.607 > Opening the blast gate.
+11:13:31.607 > 45960
+11:14:58.295 > Closing the blast gate.
+11:15:33.764 > Opening the blast gate.
+11:15:33.764 > 45576
+11:16:58.353 > Closing the blast gate.
+11:16:58.760 > Opening the blast gate.
+11:16:58.760 > 45072
+11:17:25.588 > Closing the blast gate.
+11:17:59.729 > Opening the blast gate.
+11:17:59.729 > 45072
+11:18:48.536 > Closing the blast gate.
+11:19:04.821 > Opening the blast gate.
+11:19:04.821 > 46264
+11:19:24.601 > Closing the blast gate.
+11:19:33.855 > Opening the blast gate.
+11:19:33.855 > 45072
+11:21:15.612 > Closing the blast gate.
+11:21:18.036 > Opening the blast gate.
+11:21:18.037 > 44960
+11:21:45.741 > Closing the blast gate.
+11:22:17.086 > Opening the blast gate.
+11:22:17.086 > 44960
+11:22:42.787 > Closing the blast gate.
+11:22:57.172 > Opening the blast gate.
+11:22:57.173 > 45576
+11:23:41.757 > Closing the blast gate.
+11:24:04.066 > Opening the blast gate.
+11:24:04.066 > 44960
+11:24:21.745 > Closing the blast gate.
+11:24:30.194 > Opening the blast gate.
+11:24:30.194 > 44960
+11:25:18.924 > Closing the blast gate.
+11:25:21.138 > Opening the blast gate.
+11:25:21.138 > 44960
+11:26:05.935 > Closing the blast gate.
+11:26:54.253 > Opening the blast gate.
+11:26:54.253 > 45072
+11:27:32.006 > Closing the blast gate.
+11:27:40.241 > Opening the blast gate.
+11:27:40.241 > 44960
+11:28:33.192 > Closing the blast gate.
+11:28:45.452 > Opening the blast gate.
+11:28:45.452 > 45072
+11:29:49.987 > Closing the blast gate.
+11:30:02.453 > Opening the blast gate.
+11:30:02.454 > 44960
+11:30:30.078 > Closing the blast gate.
+11:30:30.485 > Opening the blast gate.
+11:30:30.486 > 45072
+11:32:10.446 > Closing the blast gate.
+11:32:58.651 > Opening the blast gate.
+11:32:58.651 > 45072
+11:33:41.228 > Closing the blast gate.
+11:34:01.639 > Opening the blast gate.
+11:34:01.639 > 45576
+11:34:53.462 > Closing the blast gate.
+11:34:58.691 > Opening the blast gate.
+11:34:58.691 > 45072
+11:35:53.672 > Closing the blast gate.
+11:36:11.946 > Opening the blast gate.
+11:36:11.946 > 45072
+11:37:23.454 > Closing the blast gate.
+11:37:50.896 > Opening the blast gate.
+11:37:50.897 > 45576
+11:38:51.593 > Closing the blast gate.
+11:39:34.987 > Opening the blast gate.
+11:39:34.987 > 45960
+11:40:20.679 > Closing the blast gate.
+11:40:36.160 > Opening the blast gate.
+11:40:36.160 > 45072
+11:40:56.855 > Closing the blast gate.
+11:41:42.172 > Opening the blast gate.
+11:41:42.173 > 45072
+11:42:30.812 > Closing the blast gate.
+11:43:11.190 > Opening the blast gate.
+11:43:11.190 > 44960
+11:44:14.966 > Closing the blast gate.
+11:44:33.257 > Opening the blast gate.
+11:44:33.257 > 45072
+11:46:24.153 > Closing the blast gate.
+11:47:01.519 > Opening the blast gate.
+11:47:01.519 > 45960
+11:47:38.187 > Closing the blast gate.
+11:48:04.512 > Opening the blast gate.
+11:48:04.513 > 44960
+11:49:54.303 > Closing the blast gate.
+11:49:55.713 > Opening the blast gate.
+11:49:55.714 > 44960
+11:50:36.298 > Closing the blast gate.
+11:50:41.739 > Opening the blast gate.
+11:50:41.739 > 46264
+11:51:06.354 > Closing the blast gate.
+11:51:36.688 > Opening the blast gate.
+11:51:36.688 > 44960
+11:52:39.544 > Closing the blast gate.
+11:52:42.756 > Opening the blast gate.
+11:52:42.756 > 45576
+11:53:05.446 > Closing the blast gate.
+11:53:27.763 > Opening the blast gate.
+11:53:27.763 > 44960
+11:54:20.592 > Closing the blast gate.
+11:54:53.862 > Opening the blast gate.
+11:54:53.862 > 45072
+11:55:33.650 > Closing the blast gate.
+11:55:46.909 > Opening the blast gate.
+11:55:46.909 > 44960
+11:56:42.701 > Closing the blast gate.
+11:57:08.036 > Opening the blast gate.
+11:57:08.036 > 44960
+11:58:08.713 > Closing the blast gate.
+11:58:32.122 > Opening the blast gate.
+11:58:32.122 > 45072
+11:59:33.813 > Closing the blast gate.
+12:00:07.296 > Opening the blast gate.
+12:00:07.296 > 45576
+12:00:40.849 > Closing the blast gate.
+12:01:19.237 > Opening the blast gate.
+12:01:19.237 > 44960
+12:02:17.004 > Closing the blast gate.
+12:02:41.322 > Opening the blast gate.
+12:02:41.322 > 45072
+12:03:59.985 > Closing the blast gate.
+12:04:05.421 > Opening the blast gate.
+12:04:05.421 > 45072
+12:04:59.074 > Closing the blast gate.
+12:05:20.576 > Opening the blast gate.
+12:05:20.576 > 44960
+12:05:45.394 > Closing the blast gate.
+12:05:59.660 > Opening the blast gate.
+12:05:59.661 > 45072
+12:06:40.229 > Closing the blast gate.
+12:07:21.634 > Opening the blast gate.
+12:07:21.634 > 44960
+12:08:10.359 > Closing the blast gate.
+12:08:36.677 > Opening the blast gate.
+12:08:36.677 > 45072
+12:09:40.483 > Closing the blast gate.
+12:09:52.740 > Opening the blast gate.
+12:09:52.741 > 45072
+12:10:37.547 > Closing the blast gate.
+12:10:49.809 > Opening the blast gate.
+12:10:49.809 > 45072
+12:11:22.653 > Closing the blast gate.
+12:11:29.887 > Opening the blast gate.
+12:11:29.887 > 44960
+12:11:57.454 > Closing the blast gate.
+12:12:16.944 > Opening the blast gate.
+12:12:16.944 > 44960
+12:13:25.545 > Closing the blast gate.
+12:14:10.967 > Opening the blast gate.
+12:14:10.967 > 44960
+12:14:25.633 > Closing the blast gate.
+12:15:07.164 > Opening the blast gate.
+12:15:07.164 > 45072
+12:16:13.871 > Closing the blast gate.
+12:16:48.541 > Opening the blast gate.
+12:16:48.541 > 45960
+12:18:00.871 > Closing the blast gate.
+12:18:02.280 > Opening the blast gate.
+12:18:02.280 > 44960
+12:18:32.048 > Closing the blast gate.
+12:19:20.238 > Opening the blast gate.
+12:19:20.238 > 44960
+12:20:21.116 > Closing the blast gate.
+12:20:35.314 > Opening the blast gate.
+12:20:35.314 > 45576
+12:20:50.971 > Closing the blast gate.
+12:21:39.392 > Opening the blast gate.
+12:21:39.392 > 44960
+12:22:48.213 > Closing the blast gate.
+12:23:12.534 > Opening the blast gate.
+12:23:12.534 > 44960
+12:24:04.361 > Closing the blast gate.
+12:24:49.661 > Opening the blast gate.
+12:24:49.661 > 44960
+12:25:31.237 > Closing the blast gate.
+12:25:50.739 > Opening the blast gate.
+12:25:50.739 > 44960
+12:26:34.444 > Closing the blast gate.
+12:27:17.836 > Opening the blast gate.
+12:27:17.836 > 44960
+12:28:26.449 > Closing the blast gate.
+12:28:51.961 > Opening the blast gate.
+12:28:51.961 > 44960
+12:30:19.642 > Closing the blast gate.
+12:30:25.082 > Opening the blast gate.
+12:30:25.082 > 45072
+12:30:38.745 > Closing the blast gate.
+12:31:08.088 > Opening the blast gate.
+12:31:08.088 > 44960
+12:31:52.395 > Closing the blast gate.
+12:32:12.093 > Opening the blast gate.
+12:32:12.093 > 45072
+12:32:48.861 > Closing the blast gate.
+12:32:58.100 > Opening the blast gate.
+12:32:58.100 > 44960
+12:33:51.853 > Closing the blast gate.
+12:33:57.284 > Opening the blast gate.
+12:33:57.284 > 45072
+12:34:51.922 > Closing the blast gate.
+12:34:53.334 > Opening the blast gate.
+12:34:53.335 > 44960
+12:35:51.906 > Closing the blast gate.
+12:36:17.426 > Opening the blast gate.
+12:36:17.426 > 45072
+12:37:06.035 > Closing the blast gate.
+12:37:19.409 > Opening the blast gate.
+12:37:19.409 > 45576
+12:37:42.087 > Closing the blast gate.
+12:38:11.420 > Opening the blast gate.
+12:38:11.420 > 45072
+12:39:06.247 > Closing the blast gate.
+12:39:10.591 > Opening the blast gate.
+12:39:10.591 > 45576
+12:39:27.252 > Closing the blast gate.
+12:39:58.608 > Opening the blast gate.
+12:39:58.608 > 45072
+12:40:49.227 > Closing the blast gate.
+12:40:59.601 > Opening the blast gate.
+12:40:59.601 > 45576
+12:41:28.313 > Closing the blast gate.
+12:41:38.569 > Opening the blast gate.
+12:41:38.569 > 45072
+12:42:22.377 > Closing the blast gate.
+12:42:43.681 > Opening the blast gate.
+12:42:43.681 > 44960
+12:45:20.598 > Closing the blast gate.
+12:45:39.895 > Opening the blast gate.
+12:45:39.895 > 45072
+12:46:21.678 > Closing the blast gate.
+12:46:48.897 > Opening the blast gate.
+12:46:48.897 > 44960
+12:47:43.755 > Closing the blast gate.
+12:47:48.983 > Opening the blast gate.
+12:47:48.983 > 44960
+12:48:59.829 > Closing the blast gate.
+12:49:38.208 > Opening the blast gate.
+12:49:38.208 > 44960
+12:50:32.777 > Closing the blast gate.
+12:50:44.237 > Opening the blast gate.
+12:50:44.237 > 44960
+12:51:38.880 > Closing the blast gate.
+12:52:10.146 > Opening the blast gate.
+12:52:10.146 > 45576
+12:52:27.811 > Closing the blast gate.
+12:53:06.202 > Opening the blast gate.
+12:53:06.202 > 44960
+12:53:54.818 > Closing the blast gate.
+12:53:58.246 > Opening the blast gate.
+12:53:58.246 > 45960
+12:54:17.838 > Closing the blast gate.
+12:54:49.177 > Opening the blast gate.
+12:54:49.178 > 44960
+12:55:38.999 > Closing the blast gate.
+12:56:19.291 > Opening the blast gate.
+12:56:19.292 > 45072
+12:57:23.995 > Closing the blast gate.
+12:57:39.471 > Opening the blast gate.
+12:57:39.471 > 46240
+12:58:23.147 > Closing the blast gate.
+12:59:05.551 > Opening the blast gate.
+12:59:05.551 > 44960
+13:00:54.352 > Closing the blast gate.
+13:00:56.569 > Opening the blast gate.
+13:00:56.569 > 44960
+13:01:47.289 > Closing the blast gate.
+13:02:28.674 > Opening the blast gate.
+13:02:28.675 > 45072
+13:03:17.499 > Closing the blast gate.
+13:03:39.911 > Opening the blast gate.
+13:03:39.911 > 45072
+13:04:12.580 > Closing the blast gate.
+13:04:13.790 > Opening the blast gate.
+13:04:13.790 > 45072
+13:04:39.511 > Closing the blast gate.
+13:05:00.812 > Opening the blast gate.
+13:05:00.813 > 44960
+13:05:13.574 > Closing the blast gate.
+13:05:25.012 > Opening the blast gate.
+13:05:25.012 > 45072
+13:06:19.651 > Closing the blast gate.
+13:06:39.944 > Opening the blast gate.
+13:06:39.944 > 45072
+13:07:35.706 > Closing the blast gate.
+13:07:44.951 > Opening the blast gate.
+13:07:44.951 > 45072
+13:08:41.800 > Closing the blast gate.
+13:09:12.235 > Opening the blast gate.
+13:09:12.235 > 45072
+13:10:10.905 > Closing the blast gate.
+13:10:52.197 > Opening the blast gate.
+13:10:52.197 > 45576
+13:12:02.927 > Closing the blast gate.
+13:12:14.381 > Opening the blast gate.
+13:12:14.381 > 44960
+13:12:41.008 > Closing the blast gate.
+13:12:53.250 > Opening the blast gate.
+13:12:53.250 > 44960
+13:13:33.021 > Closing the blast gate.
+13:14:02.367 > Opening the blast gate.
+13:14:02.367 > 44960
+13:14:16.029 > Closing the blast gate.
+13:14:44.450 > Opening the blast gate.
+13:14:44.450 > 44960
+13:15:49.144 > Closing the blast gate.
+13:15:58.591 > Opening the blast gate.
+13:15:58.592 > 44960
+13:17:10.200 > Closing the blast gate.
+13:17:31.507 > Opening the blast gate.
+13:17:31.507 > 44960
+13:18:11.600 > Closing the blast gate.
+13:18:44.755 > Opening the blast gate.
+13:18:44.755 > 44960
+13:19:15.281 > Closing the blast gate.
+13:19:58.693 > Opening the blast gate.
+13:19:58.693 > 44960
+13:20:30.337 > Closing the blast gate.
+13:20:41.805 > Opening the blast gate.
+13:20:41.805 > 44960
+13:21:30.396 > Closing the blast gate.
+13:21:30.803 > Opening the blast gate.
+13:21:30.803 > 44960
+13:22:14.495 > Closing the blast gate.
+13:22:15.908 > Opening the blast gate.
+13:22:15.908 > 45072
+13:23:12.549 > Closing the blast gate.
+13:23:29.017 > Opening the blast gate.
+13:23:29.018 > 44960
+13:25:00.719 > Closing the blast gate.
+13:25:37.817 > Opening the blast gate.
+13:25:37.817 > 45960
+13:26:14.776 > Closing the blast gate.
+13:26:53.156 > Opening the blast gate.
+13:26:53.157 > 44960
+13:27:08.827 > Closing the blast gate.
+13:27:52.144 > Opening the blast gate.
+13:27:52.144 > 45072
+13:28:08.818 > Closing the blast gate.
+13:28:47.208 > Opening the blast gate.
+13:28:47.208 > 44960
+13:30:10.893 > Closing the blast gate.
+13:30:57.320 > Opening the blast gate.
+13:30:57.320 > 44960
+13:31:16.118 > Closing the blast gate.
+13:31:25.350 > Opening the blast gate.
+13:31:25.350 > 45072
+13:32:25.217 > Closing the blast gate.
+13:33:11.539 > Opening the blast gate.
+13:33:11.539 > 45576
+13:34:13.199 > Closing the blast gate.
+13:34:51.599 > Opening the blast gate.
+13:34:51.600 > 46240
+13:35:12.383 > Closing the blast gate.
+13:35:12.589 > Opening the blast gate.
+13:35:12.590 > 45072
+13:35:58.452 > Closing the blast gate.
+13:36:20.758 > Opening the blast gate.
+13:36:20.758 > 45072
+13:37:13.500 > Closing the blast gate.
+13:37:47.869 > Opening the blast gate.
+13:37:47.869 > 45072
+13:38:14.391 > Closing the blast gate.
+13:38:54.890 > Opening the blast gate.
+13:38:54.891 > 44960
+13:39:57.582 > Closing the blast gate.
+13:40:43.903 > Opening the blast gate.
+13:40:43.903 > 44960
+13:41:10.628 > Closing the blast gate.
+13:41:40.981 > Opening the blast gate.
+13:41:40.981 > 44960
+13:44:29.789 > Closing the blast gate.
+13:45:02.157 > Opening the blast gate.
+13:45:02.157 > 44960
+13:46:02.867 > Closing the blast gate.
+13:46:06.200 > Opening the blast gate.
+13:46:06.200 > 45576
+13:46:24.870 > Closing the blast gate.
+13:46:30.299 > Opening the blast gate.
+13:46:30.299 > 45072
+13:47:21.921 > Closing the blast gate.
+13:47:59.441 > Opening the blast gate.
+13:47:59.441 > 45576
+13:49:42.090 > Closing the blast gate.
+13:49:52.467 > Opening the blast gate.
+13:49:52.467 > 45576
+13:50:21.184 > Closing the blast gate.
+13:51:00.570 > Opening the blast gate.
+13:51:00.571 > 44960
+13:52:10.190 > Closing the blast gate.
+13:52:20.641 > Opening the blast gate.
+13:52:20.642 > 45072
+13:53:57.405 > Closing the blast gate.
+13:53:59.625 > Opening the blast gate.
+13:53:59.626 > 45072
+13:55:11.345 > Closing the blast gate.
+13:55:52.848 > Opening the blast gate.
+13:55:52.848 > 45072
+13:56:23.371 > Closing the blast gate.
+13:56:41.862 > Opening the blast gate.
+13:56:41.862 > 44960
+13:57:05.576 > Closing the blast gate.
+13:57:37.837 > Opening the blast gate.
+13:57:37.837 > 45072
+13:58:27.651 > Closing the blast gate.
+13:59:09.952 > Opening the blast gate.
+13:59:09.953 > 45576
+13:59:50.717 > Closing the blast gate.
+13:59:56.960 > Opening the blast gate.
+13:59:56.960 > 45072
+14:01:09.978 > Closing the blast gate.
+14:01:48.155 > Opening the blast gate.
+14:01:48.155 > 45072
+14:02:21.722 > Closing the blast gate.
+14:02:26.146 > Opening the blast gate.
+14:02:26.146 > 45072
+14:03:52.847 > Closing the blast gate.
+14:04:32.218 > Opening the blast gate.
+14:04:32.218 > 45072
+14:05:44.036 > Closing the blast gate.
+14:06:07.349 > Opening the blast gate.
+14:06:07.349 > 44960
+14:07:00.100 > Closing the blast gate.
+14:07:09.342 > Opening the blast gate.
+14:07:09.342 > 44960
+14:07:44.100 > Closing the blast gate.
+14:07:48.317 > Opening the blast gate.
+14:07:48.317 > 44960
+14:08:04.982 > Closing the blast gate.
+14:08:25.406 > Opening the blast gate.
+14:08:25.406 > 45576
+14:09:25.066 > Closing the blast gate.
+14:10:05.493 > Opening the blast gate.
+14:10:05.493 > 44960
+14:10:48.171 > Closing the blast gate.
+14:11:27.564 > Opening the blast gate.
+14:11:27.564 > 44960
+14:12:36.375 > Closing the blast gate.
+14:13:08.740 > Opening the blast gate.
+14:13:08.740 > 44960
+14:13:37.272 > Closing the blast gate.
+14:14:11.748 > Opening the blast gate.
+14:14:11.748 > 45072
+14:14:25.405 > Closing the blast gate.
+14:15:03.777 > Opening the blast gate.
+14:15:03.777 > 44960
+14:16:03.549 > Closing the blast gate.
+14:16:29.913 > Opening the blast gate.
+14:16:29.913 > 45072
+14:17:42.807 > Closing the blast gate.
+14:18:02.894 > Opening the blast gate.
+14:18:02.894 > 45072
+14:18:29.601 > Closing the blast gate.
+14:19:05.981 > Opening the blast gate.
+14:19:05.981 > 44960
+14:20:13.806 > Closing the blast gate.
+14:20:50.179 > Opening the blast gate.
+14:20:50.179 > 44960
+14:21:23.725 > Closing the blast gate.
+14:21:45.131 > Opening the blast gate.
+14:21:45.131 > 45072
+14:22:46.813 > Closing the blast gate.
+14:23:18.272 > Opening the blast gate.
+14:23:18.273 > 45576
+14:23:35.935 > Closing the blast gate.
+14:23:55.214 > Opening the blast gate.
+14:23:55.214 > 45072
+14:24:43.033 > Closing the blast gate.
+14:24:59.315 > Opening the blast gate.
+14:24:59.316 > 44960
+14:25:28.958 > Closing the blast gate.
+14:25:41.430 > Opening the blast gate.
+14:25:41.431 > 45072
+14:26:39.080 > Closing the blast gate.
+14:27:23.403 > Opening the blast gate.
+14:27:23.403 > 45072
+14:28:14.214 > Closing the blast gate.
+14:28:19.640 > Opening the blast gate.
+14:28:19.641 > 45072
+14:28:35.311 > Closing the blast gate.
+14:29:06.544 > Opening the blast gate.
+14:29:06.544 > 45072
+14:29:47.325 > Closing the blast gate.
+14:30:02.607 > Opening the blast gate.
+14:30:02.608 > 45072
+14:30:55.738 > Closing the blast gate.
+14:31:09.811 > Opening the blast gate.
+14:31:09.811 > 45072
+14:31:43.351 > Closing the blast gate.
+14:32:06.871 > Opening the blast gate.
+14:32:06.871 > 45072
+14:32:29.368 > Closing the blast gate.
+14:32:38.738 > Opening the blast gate.
+14:32:38.738 > 45576
+14:34:21.582 > Closing the blast gate.
+14:34:33.953 > Opening the blast gate.
+14:34:33.954 > 45576
+14:35:42.646 > Closing the blast gate.
+14:36:12.986 > Opening the blast gate.
+14:36:12.986 > 44960
+14:36:41.620 > Closing the blast gate.
+14:37:03.112 > Opening the blast gate.
+14:37:03.112 > 44960
+14:37:26.819 > Closing the blast gate.
+14:37:31.043 > Opening the blast gate.
+14:37:31.043 > 44960
+14:37:50.726 > Closing the blast gate.
+14:38:22.188 > Opening the blast gate.
+14:38:22.188 > 45072
+14:39:32.912 > Closing the blast gate.
+14:39:42.154 > Opening the blast gate.
+14:39:42.155 > 44960
+14:40:44.917 > Closing the blast gate.
+14:41:30.320 > Opening the blast gate.
+14:41:30.321 > 44960
+14:41:53.733 > Closing the blast gate.
+14:42:27.292 > Opening the blast gate.
+14:42:27.292 > 45072
+14:43:15.110 > Closing the blast gate.
+14:43:28.381 > Opening the blast gate.
+14:43:28.381 > 44960
+14:44:29.150 > Closing the blast gate.
+14:44:48.441 > Opening the blast gate.
+14:44:48.441 > 44960
+14:45:31.232 > Closing the blast gate.
+14:45:33.652 > Opening the blast gate.
+14:45:33.652 > 45960
+14:45:55.246 > Closing the blast gate.
+14:46:31.607 > Opening the blast gate.
+14:46:31.607 > 45072
+14:46:52.360 > Closing the blast gate.
+14:46:52.566 > Opening the blast gate.
+14:46:52.566 > 44960
+14:47:10.242 > Closing the blast gate.
+14:47:23.704 > Opening the blast gate.
+14:47:23.704 > 44960
+14:48:26.286 > Closing the blast gate.
+14:49:05.686 > Opening the blast gate.
+14:49:05.687 > 44960
+14:49:22.481 > Closing the blast gate.
+14:50:04.866 > Opening the blast gate.
+14:50:04.866 > 44808
+14:51:41.610 > Closing the blast gate.
+14:52:16.973 > Opening the blast gate.
+14:52:16.973 > 45072
+14:52:42.688 > Closing the blast gate.
+14:52:59.987 > Opening the blast gate.
+14:52:59.988 > 46080
+14:53:24.595 > Closing the blast gate.
+14:54:11.005 > Opening the blast gate.
+14:54:11.005 > 45072
+14:54:55.142 > Closing the blast gate.
+14:55:41.147 > Opening the blast gate.
+14:55:41.147 > 45072
+14:56:57.585 > Closing the blast gate.
+14:57:36.167 > Opening the blast gate.
+14:57:36.167 > 44968
+14:58:44.975 > Closing the blast gate.
+14:59:12.292 > Opening the blast gate.
+14:59:12.292 > 44960
+14:59:31.977 > Closing the blast gate.
+15:00:04.338 > Opening the blast gate.
+15:00:04.338 > 44960
+15:00:18.000 > Closing the blast gate.
+15:00:39.418 > Opening the blast gate.
+15:00:39.418 > 45576
+15:00:52.072 > Closing the blast gate.
+15:01:00.514 > Opening the blast gate.
+15:01:00.514 > 44960
+15:01:15.178 > Closing the blast gate.
+15:01:43.506 > Opening the blast gate.
+15:01:43.506 > 44960
+15:02:28.219 > Closing the blast gate.
+15:03:14.627 > Opening the blast gate.
+15:03:14.627 > 44960
+15:04:18.440 > Closing the blast gate.
+15:04:25.666 > Opening the blast gate.
+15:04:25.666 > 45072
+15:05:11.265 > Closing the blast gate.
+15:05:44.629 > Opening the blast gate.
+15:05:44.629 > 44960
+15:06:03.316 > Closing the blast gate.
+15:06:17.685 > Opening the blast gate.
+15:06:17.686 > 45072
+15:06:39.388 > Closing the blast gate.
+15:07:22.803 > Opening the blast gate.
+15:07:22.803 > 45072
+15:07:39.477 > Closing the blast gate.
+15:07:49.920 > Opening the blast gate.
+15:07:49.921 > 45072
+15:08:49.478 > Closing the blast gate.
+15:08:52.897 > Opening the blast gate.
+15:08:52.898 > 44960
+15:09:44.548 > Closing the blast gate.
+15:10:09.970 > Opening the blast gate.
+15:10:09.970 > 45072
+15:11:48.694 > Closing the blast gate.
+15:12:13.017 > Opening the blast gate.
+15:12:13.018 > 45072
+15:12:54.822 > Closing the blast gate.
+15:13:20.140 > Opening the blast gate.
+15:13:20.140 > 44960
+15:14:22.927 > Closing the blast gate.
+15:15:11.159 > Opening the blast gate.
+15:15:11.159 > 44960
+15:16:10.944 > Closing the blast gate.
+15:16:56.354 > Opening the blast gate.
+15:16:56.355 > 44960
+15:17:46.075 > Closing the blast gate.
+15:17:59.345 > Opening the blast gate.
+15:17:59.345 > 45072
+15:18:38.132 > Closing the blast gate.
+15:18:52.408 > Opening the blast gate.
+15:18:52.408 > 44960
+15:19:47.188 > Closing the blast gate.
+15:20:29.619 > Opening the blast gate.
+15:20:29.619 > 45072
+15:21:38.226 > Closing the blast gate.
+15:22:24.637 > Opening the blast gate.
+15:22:24.637 > 45072
+15:22:37.307 > Closing the blast gate.
+15:22:43.740 > Opening the blast gate.
+15:22:43.740 > 44960
+15:23:49.349 > Closing the blast gate.
+15:23:51.773 > Opening the blast gate.
+15:23:51.774 > 45072
+15:24:46.524 > Closing the blast gate.
+15:25:09.821 > Opening the blast gate.
+15:25:09.822 > 44960
+15:26:06.476 > Closing the blast gate.
+15:26:50.998 > Opening the blast gate.
+15:26:50.998 > 44960
+15:28:38.612 > Closing the blast gate.
+15:29:12.994 > Opening the blast gate.
+15:29:12.994 > 44960
+15:30:11.668 > Closing the blast gate.
+15:30:31.058 > Opening the blast gate.
+15:30:31.058 > 45072
+15:31:38.790 > Closing the blast gate.
+15:32:12.246 > Opening the blast gate.
+15:32:12.247 > 45576
+15:32:51.806 > Closing the blast gate.
+15:33:27.366 > Opening the blast gate.
+15:33:27.366 > 44960
+15:34:05.050 > Closing the blast gate.
+15:34:22.335 > Opening the blast gate.
+15:34:22.336 > 45072
+15:34:43.006 > Closing the blast gate.
+15:35:12.352 > Opening the blast gate.
+15:35:12.352 > 44960
+15:35:35.061 > Closing the blast gate.
+15:35:40.489 > Opening the blast gate.
+15:35:40.489 > 44960
+15:36:46.104 > Closing the blast gate.
+15:37:16.455 > Opening the blast gate.
+15:37:16.455 > 44960
+15:37:48.315 > Closing the blast gate.
+15:38:02.580 > Opening the blast gate.
+15:38:02.580 > 45072
+15:39:01.234 > Closing the blast gate.
+15:39:42.607 > Opening the blast gate.
+15:39:42.607 > 45576
+15:40:18.384 > Closing the blast gate.
+15:40:28.641 > Opening the blast gate.
+15:40:28.642 > 45072
+15:41:08.432 > Closing the blast gate.
+15:41:37.660 > Opening the blast gate.
+15:41:37.660 > 45072
+15:42:06.392 > Closing the blast gate.
+15:42:12.822 > Opening the blast gate.
+15:42:12.822 > 45072
+15:43:32.488 > Closing the blast gate.
+15:44:15.895 > Opening the blast gate.
+15:44:15.895 > 45072
+15:45:44.602 > Closing the blast gate.
+15:45:57.055 > Opening the blast gate.
+15:45:57.056 > 45072
+15:46:40.642 > Closing the blast gate.
+15:47:05.074 > Opening the blast gate.
+15:47:05.074 > 45576
+15:47:54.694 > Closing the blast gate.
+15:47:59.117 > Opening the blast gate.
+15:47:59.117 > 45072
+15:48:37.705 > Closing the blast gate.
+15:49:22.216 > Opening the blast gate.
+15:49:22.216 > 45072
+15:49:54.769 > Closing the blast gate.
+15:50:22.282 > Opening the blast gate.
+15:50:22.282 > 44808
+15:50:41.967 > Closing the blast gate.
+15:51:04.384 > Opening the blast gate.
+15:51:04.384 > 45072
+15:51:30.889 > Closing the blast gate.
+15:51:42.343 > Opening the blast gate.
+15:51:42.343 > 45072
+15:52:01.035 > Closing the blast gate.
+15:52:35.320 > Opening the blast gate.
+15:52:35.320 > 45576
+15:53:37.980 > Closing the blast gate.
+15:53:52.440 > Opening the blast gate.
+15:53:52.440 > 44960
+15:55:02.034 > Closing the blast gate.
+15:55:38.612 > Opening the blast gate.
+15:55:38.612 > 44960
+15:56:36.162 > Closing the blast gate.
+15:57:22.581 > Opening the blast gate.
+15:57:22.581 > 44968
+15:57:55.326 > Closing the blast gate.
+15:57:57.742 > Opening the blast gate.
+15:57:57.742 > 44968
+15:59:00.323 > Closing the blast gate.
+15:59:29.675 > Opening the blast gate.
+15:59:29.675 > 44960
+16:00:36.455 > Closing the blast gate.
+16:00:39.874 > Opening the blast gate.
+16:00:39.874 > 45072
+16:01:34.526 > Closing the blast gate.
+16:01:57.952 > Opening the blast gate.
+16:01:57.952 > 45576
+16:02:48.578 > Closing the blast gate.
+16:02:49.991 > Opening the blast gate.
+16:02:49.991 > 44960
+16:03:46.759 > Closing the blast gate.
+16:04:21.111 > Opening the blast gate.
+16:04:21.111 > 45072
+16:05:30.818 > Closing the blast gate.
+16:06:05.078 > Opening the blast gate.
+16:06:05.079 > 45072
+16:07:27.602 > Closing the blast gate.
+16:07:40.250 > Opening the blast gate.
+16:07:40.250 > 45072
+16:08:45.935 > Closing the blast gate.
+16:09:14.270 > Opening the blast gate.
+16:09:14.270 > 44960
+16:10:38.955 > Closing the blast gate.
+16:10:58.456 > Opening the blast gate.
+16:10:58.456 > 44960
+16:11:12.214 > Closing the blast gate.
+16:11:46.363 > Opening the blast gate.
+16:11:46.364 > 44960
+16:12:58.098 > Closing the blast gate.
+16:13:27.533 > Opening the blast gate.
+16:13:27.533 > 45072
+16:13:59.271 > Closing the blast gate.
+16:14:24.607 > Opening the blast gate.
+16:14:24.607 > 45072
+16:15:09.290 > Closing the blast gate.
+16:15:34.622 > Opening the blast gate.
+16:15:34.622 > 45072
+16:16:18.410 > Closing the blast gate.
+16:16:35.700 > Opening the blast gate.
+16:16:35.700 > 45072
+16:17:42.501 > Closing the blast gate.
+16:18:01.788 > Opening the blast gate.
+16:18:01.788 > 45072
+16:18:55.547 > Closing the blast gate.
+16:19:39.953 > Opening the blast gate.
+16:19:39.953 > 44960
+16:20:31.697 > Closing the blast gate.
+16:20:36.914 > Opening the blast gate.
+16:20:36.914 > 45576
+16:21:36.602 > Closing the blast gate.
+16:22:20.512 > Opening the blast gate.
+16:22:20.513 > 45960
+16:22:33.754 > Closing the blast gate.
+16:23:19.173 > Opening the blast gate.
+16:23:19.173 > 44960
+16:24:19.956 > Closing the blast gate.
+16:24:27.187 > Opening the blast gate.
+16:24:27.187 > 45072
+16:24:58.724 > Closing the blast gate.
+16:25:10.192 > Opening the blast gate.
+16:25:10.192 > 44960
+16:25:30.891 > Closing the blast gate.
+16:25:49.165 > Opening the blast gate.
+16:25:49.165 > 44960
+16:26:08.962 > Closing the blast gate.
+16:26:25.239 > Opening the blast gate.
+16:26:25.239 > 45072
+16:26:50.945 > Closing the blast gate.
+16:27:23.308 > Opening the blast gate.
+16:27:23.308 > 44960
+16:28:24.094 > Closing the blast gate.
+16:28:55.442 > Opening the blast gate.
+16:28:55.442 > 44960
+16:29:46.777 > Closing the blast gate.
+16:30:14.492 > Opening the blast gate.
+16:30:14.492 > 45072
+16:30:46.219 > Closing the blast gate.
+16:31:28.428 > Opening the blast gate.
+16:31:28.429 > 44960
+16:32:19.168 > Closing the blast gate.
+16:32:34.646 > Opening the blast gate.
+16:32:34.646 > 45072
+16:33:39.238 > Closing the blast gate.
+16:34:04.559 > Opening the blast gate.
+16:34:04.559 > 45072
+16:34:25.249 > Closing the blast gate.
+16:34:55.606 > Opening the blast gate.
+16:34:55.606 > 44960
+16:35:23.437 > Closing the blast gate.
+16:35:43.718 > Opening the blast gate.
+16:35:43.718 > 45072
+16:36:23.298 > Closing the blast gate.
+16:36:52.827 > Opening the blast gate.
+16:36:52.827 > 44960
+16:38:34.596 > Closing the blast gate.
+16:38:34.803 > Opening the blast gate.
+16:38:34.803 > 45072
+16:38:48.461 > Closing the blast gate.
+16:39:30.966 > Opening the blast gate.
+16:39:30.966 > 45072
+16:40:28.628 > Closing the blast gate.
+16:40:35.061 > Opening the blast gate.
+16:40:35.061 > 45072
+16:41:38.663 > Closing the blast gate.
+16:42:18.041 > Opening the blast gate.
+16:42:18.041 > 45072
+16:43:28.871 > Closing the blast gate.
+16:43:52.197 > Opening the blast gate.
+16:43:52.197 > 45072
+16:44:07.867 > Closing the blast gate.
+16:44:22.142 > Opening the blast gate.
+16:44:22.142 > 45072
+16:45:10.866 > Closing the blast gate.
+16:45:14.298 > Opening the blast gate.
+16:45:14.299 > 44960
+16:46:17.982 > Closing the blast gate.
+16:46:58.285 > Opening the blast gate.
+16:46:58.285 > 44960
+16:47:31.841 > Closing the blast gate.
+16:47:33.252 > Opening the blast gate.
+16:47:33.252 > 44960
+16:48:16.046 > Closing the blast gate.
+16:49:00.367 > Opening the blast gate.
+16:49:00.367 > 44960
+16:50:05.054 > Closing the blast gate.
+16:50:49.436 > Opening the blast gate.
+16:50:49.437 > 44960
+16:52:54.323 > Closing the blast gate.
+16:53:10.608 > Opening the blast gate.
+16:53:10.608 > 44960
+16:54:31.346 > Closing the blast gate.
+16:54:48.632 > Opening the blast gate.
+16:54:48.632 > 44960
+16:55:34.432 > Closing the blast gate.
+16:55:47.693 > Opening the blast gate.
+16:55:47.693 > 45960
+16:56:55.510 > Closing the blast gate.
+16:57:06.770 > Opening the blast gate.
+16:57:06.770 > 44944
+16:57:32.468 > Closing the blast gate.
+16:58:12.966 > Opening the blast gate.
+16:58:12.966 > 45072
+16:59:26.516 > Closing the blast gate.
+16:59:47.924 > Opening the blast gate.
+16:59:47.924 > 45072
+17:00:34.528 > Closing the blast gate.
+17:00:57.044 > Opening the blast gate.
+17:00:57.044 > 44960
+17:02:03.633 > Closing the blast gate.
+17:02:19.113 > Opening the blast gate.
+17:02:19.113 > 45072
+17:03:20.938 > Closing the blast gate.
+17:03:49.255 > Opening the blast gate.
+17:03:49.256 > 45072
+17:04:04.924 > Closing the blast gate.
+17:04:45.105 > Opening the blast gate.
+17:04:45.105 > 44960
+17:05:10.933 > Closing the blast gate.
+17:05:25.195 > Opening the blast gate.
+17:05:25.195 > 45072
+17:05:45.888 > Closing the blast gate.
+17:06:30.307 > Opening the blast gate.
+17:06:30.307 > 45072
+17:07:20.023 > Closing the blast gate.
+17:08:06.449 > Opening the blast gate.
+17:08:06.450 > 45072
+17:09:08.057 > Closing the blast gate.
+17:09:32.376 > Opening the blast gate.
+17:09:32.376 > 45072
+17:10:00.086 > Closing the blast gate.
+17:10:19.585 > Opening the blast gate.
+17:10:19.586 > 45072
+17:12:00.151 > Closing the blast gate.
+17:12:29.690 > Opening the blast gate.
+17:12:29.690 > 44960
+17:13:35.298 > Closing the blast gate.
+17:14:13.674 > Opening the blast gate.
+17:14:13.674 > 44960
+17:14:43.311 > Closing the blast gate.
+17:14:43.718 > Opening the blast gate.
+17:14:43.719 > 44960
+17:15:09.428 > Closing the blast gate.
+17:15:32.749 > Opening the blast gate.
+17:15:32.749 > 44960
+17:16:31.530 > Closing the blast gate.
+17:16:36.766 > Opening the blast gate.
+17:16:36.766 > 45072
+17:18:02.561 > Closing the blast gate.
+17:18:36.025 > Opening the blast gate.
+17:18:36.025 > 45072
+17:19:36.690 > Closing the blast gate.
+17:19:37.899 > Opening the blast gate.
+17:19:37.899 > 44960
+17:21:13.631 > Closing the blast gate.
+17:21:56.140 > Opening the blast gate.
+17:21:56.140 > 45576
+17:22:59.808 > Closing the blast gate.
+17:23:06.241 > Opening the blast gate.
+17:23:06.241 > 44960
+17:23:28.747 > Closing the blast gate.
+17:23:40.211 > Opening the blast gate.
+17:23:40.211 > 46264
+17:24:15.878 > Closing the blast gate.
+17:24:33.355 > Opening the blast gate.
+17:24:33.355 > 45072
+17:25:04.894 > Closing the blast gate.
+17:25:12.333 > Opening the blast gate.
+17:25:12.333 > 44960
+17:25:35.545 > Closing the blast gate.
+17:25:47.388 > Opening the blast gate.
+17:25:47.388 > 45072
+17:26:09.902 > Closing the blast gate.
+17:26:53.305 > Opening the blast gate.
+17:26:53.305 > 44960
+17:28:05.133 > Closing the blast gate.
+17:28:29.445 > Opening the blast gate.
+17:28:29.445 > 45072
+17:29:35.041 > Closing the blast gate.
+17:29:38.469 > Opening the blast gate.
+17:29:38.469 > 45072
+17:30:31.102 > Closing the blast gate.
+17:30:57.634 > Opening the blast gate.
+17:30:57.634 > 44960
+17:31:52.188 > Closing the blast gate.
+17:32:06.664 > Opening the blast gate.
+17:32:06.664 > 45072
+17:34:08.337 > Closing the blast gate.
+17:34:22.795 > Opening the blast gate.
+17:34:22.795 > 45072
+17:35:31.413 > Closing the blast gate.
+17:35:53.922 > Opening the blast gate.
+17:35:53.923 > 45072
+17:36:41.571 > Closing the blast gate.
+17:36:52.931 > Opening the blast gate.
+17:36:52.931 > 45576
+17:37:09.596 > Closing the blast gate.
+17:37:23.875 > Opening the blast gate.
+17:37:23.876 > 45072
+17:37:54.606 > Closing the blast gate.
+17:38:33.994 > Opening the blast gate.
+17:38:33.994 > 45960
+17:39:35.763 > Closing the blast gate.
+17:40:16.150 > Opening the blast gate.
+17:40:16.150 > 44960
+17:41:13.705 > Closing the blast gate.
+17:41:38.231 > Opening the blast gate.
+17:41:38.231 > 44960
+17:42:31.770 > Closing the blast gate.
+17:43:14.180 > Opening the blast gate.
+17:43:14.181 > 44960
+17:44:07.826 > Closing the blast gate.
+17:44:31.243 > Opening the blast gate.
+17:44:31.243 > 45072
+17:45:30.905 > Closing the blast gate.
+17:46:11.389 > Opening the blast gate.
+17:46:11.390 > 45576
+17:46:28.060 > Closing the blast gate.
+17:46:45.332 > Opening the blast gate.
+17:46:45.332 > 44960
+17:47:14.069 > Closing the blast gate.
+17:47:21.503 > Opening the blast gate.
+17:47:21.503 > 44960
+17:47:54.059 > Closing the blast gate.
+17:48:17.476 > Opening the blast gate.
+17:48:17.477 > 45072
+17:48:30.135 > Closing the blast gate.
+17:49:14.550 > Opening the blast gate.
+17:49:14.550 > 44960
+17:50:16.120 > Closing the blast gate.
+17:51:00.519 > Opening the blast gate.
+17:51:00.519 > 44960
+17:51:32.266 > Closing the blast gate.
+17:51:38.621 > Opening the blast gate.
+17:51:38.621 > 45576
+17:52:42.303 > Closing the blast gate.
+17:52:58.773 > Opening the blast gate.
+17:52:58.774 > 44960
+17:54:40.355 > Closing the blast gate.
+17:55:05.891 > Opening the blast gate.
+17:55:05.891 > 44760
+17:56:00.431 > Closing the blast gate.
+17:56:43.829 > Opening the blast gate.
+17:56:43.829 > 44944
+17:58:12.550 > Closing the blast gate.
+17:58:56.957 > Opening the blast gate.
+17:58:56.957 > 44944
+17:59:18.550 > Closing the blast gate.
+17:59:51.969 > Opening the blast gate.
+17:59:51.969 > 44944
+18:01:51.834 > Closing the blast gate.
+18:02:19.160 > Opening the blast gate.
+18:02:19.160 > 44944
+18:02:48.011 > Closing the blast gate.
+18:02:56.242 > Opening the blast gate.
+18:02:56.242 > 45576
+18:04:30.856 > Closing the blast gate.
+18:05:18.374 > Opening the blast gate.
+18:05:18.374 > 44960
+18:05:52.113 > Closing the blast gate.
+18:06:39.428 > Opening the blast gate.
+18:06:39.428 > 45960
+18:07:08.228 > Closing the blast gate.
+18:07:30.390 > Opening the blast gate.
+18:07:30.390 > 44696

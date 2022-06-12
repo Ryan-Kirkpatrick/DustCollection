@@ -1,21 +1,9 @@
-#include "CurrentReader.hpp"
+#include "CurrentReader.h"
+#include "Config.h"
 
-// Static members
-int CurrentReader::lastADCValues[CurrentReader::lastADCValuesLength]  =  { };
-int CurrentReader::lastADCValuesIndex = 0;
-
-
-
-// Constructor and start the hardware timer.
-CurrentReader::CurrentReader() {
-    // Setup timer. Frequency ~= 160Hz. Callback to readADC().
-    //timer.attachInterruptInterval(1000000/160, readADC);
-}
-
-// ISR for the timer interupt.
 // Reads the current value of the ADC and stores it to be averaged later.
-void CurrentReader::readADC() {
-    lastADCValues[lastADCValuesIndex] = analogRead(Core::ADC_PIN);
+void CurrentReader::loop() {
+    lastADCValues[lastADCValuesIndex] = analogRead(Config::adcPin);
     lastADCValuesIndex++;
     if (lastADCValuesIndex >= lastADCValuesLength) {
         lastADCValuesIndex = 0;
@@ -32,4 +20,6 @@ bool CurrentReader::isMachineOn() {
     return average > thresholdForMachineOn;
 
 }
+
+CurrentReader::CurrentReader() : lastADCValues{} {}
 
